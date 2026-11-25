@@ -25,8 +25,8 @@ struct TodayView: View {
                 if let conditions = model.current, let outfit = model.recommendation {
                     weatherHeader(conditions)
                     Button { detail = .init(conditions: conditions, style: model.style) } label: {
-                        OutfitArtwork(outfit: outfit, height: 340)
-                            .overlay(alignment: .topLeading) { Text("\(model.style.rawValue.uppercased())  /  \(outfit.band.range)").font(.system(size: 9, design: .monospaced)).tracking(1).padding(12).background(.regularMaterial, in: Capsule()).padding(16) }
+                        OutfitArtwork(outfit: outfit, height: 465)
+                            .overlay(alignment: .bottomLeading) { Text("\(model.style.rawValue.uppercased())  /  \(outfit.band.range)").font(.system(size: 9, design: .monospaced)).tracking(1).padding(12).background(.regularMaterial, in: Capsule()).padding(16) }
                             .overlay(alignment: .bottomTrailing) { Image(systemName: "arrow.up.right").padding(17).glassEffect(.regular, in: Circle()).padding(16) }
                     }.buttonStyle(.plain).accessibilityIdentifier("todayOutfit")
                     VStack(alignment: .leading, spacing: 10) {

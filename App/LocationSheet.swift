@@ -4,13 +4,14 @@ struct LocationSheet: View {
     @Environment(AppModel.self) private var model
     @Environment(\.dismiss) private var dismiss
     let onSelect: (SavedCity) -> Void
+    var allowsCurrentLocation = true
     @State private var query = ""
     var body: some View {
         NavigationStack {
             List {
-                Section {
+                if allowsCurrentLocation { Section {
                     Button { model.requestLocation(); dismiss() } label: { Label("Use current location", systemImage: "location.fill") }
-                } footer: { Text("Optional. Choose any city without sharing your device location.") }
+                } footer: { Text("Optional. Choose any city without sharing your device location.") } }
                 if !query.isEmpty {
                     Section("Search results") {
                         if model.searching { ProgressView("Searching places…") }

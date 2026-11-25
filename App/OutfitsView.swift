@@ -9,12 +9,14 @@ struct OutfitDetailView: View {
     @State private var saved = false
     @State private var profile = "Both"
     @State private var adjustment = 0.0
+    @State private var variant = 0
     private var look: Outfit { OutfitEngine.recommend(conditions, style: style, comfort: model.comfort + adjustment) }
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
-                    OutfitArtwork(outfit: look, height: 340)
+                    OutfitArtwork(outfit: look, height: 380, variant: variant)
+                    Button { withAnimation { variant = (variant + 1) % 4 } } label: { Label("Another look", systemImage: "shuffle").frame(maxWidth: .infinity) }.buttonStyle(.glass)
                     PageHeading(eyebrow: "\(style.rawValue) · \(look.band.range)", title: look.title)
                     Picker("Outfit profile", selection: $profile) { Text("Both").tag("Both"); Text("Women").tag("Women"); Text("Men").tag("Men") }.pickerStyle(.segmented)
                     Text(profile == "Both" ? "A coordinated foundation for both wardrobes." : "A \(profile.lowercased())’s outfit foundation. Adapt the fit and silhouette to your taste.").font(.caption).foregroundStyle(Theme.muted)

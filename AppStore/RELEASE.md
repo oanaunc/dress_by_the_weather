@@ -8,6 +8,6 @@
 - Simulator flow: save outfit, preferences, forecast navigation passed.
 - Automatic signing: release archive passed with team HBD3XXQK45.
 - Photography: catalogue production in progress; see `Art/catalogue.json` for actual status.
-- App Store Connect: new app record requested; publication is not yet complete.
+- App Store Connect: record created: https://appstoreconnect.apple.com/apps/6839394808/distribution/ios/version/inflight. Publication is not yet complete.
 
 Before submission, finish the catalogue, review privacy disclosures, supply final device screenshots and verify the uploaded build. App review and public release are separate states; an archive alone is not publication.

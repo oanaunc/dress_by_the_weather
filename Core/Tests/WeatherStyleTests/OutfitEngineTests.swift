@@ -43,10 +43,10 @@ final class OutfitEngineTests: XCTestCase {
         XCTAssertEqual(forecast.hours[1].conditions.label, "Cloudy")
     }
     func testDestinationTimeZoneControlsDailyGrouping() {
-        let first = Date(timeIntervalSince1970: 1_795_648_200)
+        let first = ISO8601DateFormatter().date(from: "2026-11-25T23:45:00Z")!
         let forecast = Forecast(updatedAt: first, hours: [.init(date: first, conditions: .init(temperature: 10)), .init(date: first.addingTimeInterval(3600), conditions: .init(temperature: 11))])
-        XCTAssertEqual(forecast.days(timeZone: TimeZone(secondsFromGMT: 0)!).flatMap(\.hours).count, 2)
-        XCTAssertEqual(forecast.days(timeZone: TimeZone(identifier: "Pacific/Auckland")!).flatMap(\.hours).count, 2)
+        XCTAssertEqual(forecast.days(timeZone: TimeZone(secondsFromGMT: 0)!).count, 2)
+        XCTAssertEqual(forecast.days(timeZone: TimeZone(identifier: "America/New_York")!).count, 1)
     }
     func testWholeCatalogueOfWeatherInputsHasCompleteOutfits() {
         for temperature in stride(from: -30.0, through: 45, by: 1) {

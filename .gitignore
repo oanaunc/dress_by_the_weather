@@ -10,3 +10,6 @@ xcuserdata/
 *.mobileprovision
 AppStore/Export/
 Screenshots/Raw/
+Art/Originals/
+Art/ContactSheets/
+Screenshots/*first*

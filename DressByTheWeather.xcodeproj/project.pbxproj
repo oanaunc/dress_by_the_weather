@@ -16,6 +16,7 @@
 		5F5562D3F41610B565A96CAC /* OutfitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E27EB0CC1431E8F4B2FE598 /* OutfitsView.swift */; };
 		6618567A1FA532EFB38E3434 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542465E1AF789909A7576F50 /* RootView.swift */; };
 		67BDFDB635341BBEEF6FAAC9 /* PlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2317500A3741718BD968A5FA /* PlannerView.swift */; };
+		797C7EB4D9727B9AD13480F3 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3B2C1141737A9A0D3DEF858B /* PrivacyInfo.xcprivacy */; };
 		7AD7CD7017F2B53D2D0D6FD8 /* DressByTheWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9711B6277DD8A757D709B26E /* DressByTheWeatherApp.swift */; };
 		8008B383CD1CAE3B762FD447 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFD57F6774DFF071942DB1 /* TodayView.swift */; };
 		A96693E0ACD9092D0FFD7348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28BF038EDBB76D58151A8A18 /* Assets.xcassets */; };
@@ -61,6 +62,7 @@
 		08B5317B3D65B5A8DF59E578 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		2317500A3741718BD968A5FA /* PlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerView.swift; sourceTree = "<group>"; };
 		28BF038EDBB76D58151A8A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B2C1141737A9A0D3DEF858B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		4D8DD16169ACA27C766C15B5 /* DressByTheWeather.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DressByTheWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		542465E1AF789909A7576F50 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		557EBC7E7286F589D5BB4216 /* Dress.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dress.entitlements; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				C633D05769F47D2561FC1FA1 /* LocationSheet.swift */,
 				8E27EB0CC1431E8F4B2FE598 /* OutfitsView.swift */,
 				2317500A3741718BD968A5FA /* PlannerView.swift */,
+				3B2C1141737A9A0D3DEF858B /* PrivacyInfo.xcprivacy */,
 				542465E1AF789909A7576F50 /* RootView.swift */,
 				E87CD34A8888DC6E1DD6B963 /* SettingsView.swift */,
 				7CCFD57F6774DFF071942DB1 /* TodayView.swift */,
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A96693E0ACD9092D0FFD7348 /* Assets.xcassets in Resources */,
+				797C7EB4D9727B9AD13480F3 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

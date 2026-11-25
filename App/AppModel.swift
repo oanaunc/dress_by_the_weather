@@ -119,8 +119,9 @@ struct PackingTrip: Codable, Identifiable {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let location = locations.last else { locating = false; return }
         Task {
-            let placemark = try? await CLGeocoder().reverseGeocodeLocation(location).first
-            let selected = SavedCity(name: placemark?.locality ?? "Current location", latitude: location.coordinate.latitude, longitude: location.coordinate.longitude, timeZoneID: placemark?.timeZone?.identifier ?? TimeZone.current.identifier)
+            let request = MKReverseGeocodingRequest(location: location)
+            let place = try? await request?.mapItems.first
+            let selected = SavedCity(name: place?.addressRepresentations?.cityName ?? "Current location", latitude: location.coordinate.latitude, longitude: location.coordinate.longitude, timeZoneID: place?.timeZone?.identifier ?? TimeZone.current.identifier)
             locating = false; completedOnboarding = true; await select(selected)
         }
     }

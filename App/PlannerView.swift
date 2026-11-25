@@ -55,7 +55,7 @@ struct NewTripSheet: View {
                     } } label: { HStack { Spacer(); if loading { ProgressView() }; Text(loading ? "Checking destination weather…" : "Create my packing list"); Spacer() } }.disabled(destination == nil || loading)
                     if let error { Text(error).font(.caption).foregroundStyle(.red) }
                 }
-            }.scrollContentBackground(.hidden).pageBackground().navigationTitle("A new adventure").navigationBarTitleDisplayMode(.inline).toolbar { ToolbarItem(placement: .cancellationAction) { Button("Cancel") { dismiss() }.disabled(loading) } }.sheet(isPresented: $locations) { LocationSheet(onSelect: { destination = $0 }) }
+            }.environment(\.timeZone, destination?.timeZone ?? .current).scrollContentBackground(.hidden).pageBackground().navigationTitle("A new adventure").navigationBarTitleDisplayMode(.inline).toolbar { ToolbarItem(placement: .cancellationAction) { Button("Cancel") { dismiss() }.disabled(loading) } }.sheet(isPresented: $locations) { LocationSheet(onSelect: { destination = $0 }, allowsCurrentLocation: false) }
         }
     }
 }

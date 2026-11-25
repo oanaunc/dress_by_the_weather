@@ -46,7 +46,7 @@ struct OutfitArtwork: View {
     var body: some View {
         Group {
             if let name = asset {
-                Image(name).resizable().scaledToFill().frame(height: height, alignment: .trailing).clipped()
+                Image(name).resizable().scaledToFill().frame(height: height, alignment: .top).clipped()
             } else {
                 ZStack {
                     LinearGradient(colors: [Theme.sand.opacity(0.65), .white, Theme.olive.opacity(0.15)], startPoint: .topLeading, endPoint: .bottomTrailing)

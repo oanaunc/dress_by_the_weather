@@ -11,6 +11,10 @@ struct ForecastView: View {
                 PageHeading(eyebrow: "\(model.city.name) · the days ahead", title: "Forecast your\nwardrobe.")
                 if model.forecast?.isPreview == true { Label("Sample forecast · not live weather", systemImage: "eye").font(.caption).foregroundStyle(Theme.olive) }
                 if model.forecast != nil {
+                    if let day = model.days.dropFirst().first {
+                        OutfitArtwork(outfit: OutfitEngine.recommend(day.representative.conditions, style: model.style, comfort: model.comfort), height: 240, variant: 1)
+                            .overlay(alignment: .bottomLeading) { Text("TOMORROW’S EDIT").font(.system(size: 9, design: .monospaced)).tracking(1.5).padding(12).background(.regularMaterial, in: Capsule()).padding(14) }
+                    }
                     Text("Hourly detail first. A wider view after that. Tap a day for its weather and layers.").font(.subheadline).foregroundStyle(Theme.muted).lineSpacing(5)
                     if !model.upcoming.isEmpty {
                         VStack(alignment: .leading, spacing: 16) {

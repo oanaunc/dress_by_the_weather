@@ -15,8 +15,13 @@
     "variants": 4,
     "assetBase": "couple_dry_0_0",
     "jobID": "3d4fdc4c-7369-4bcd-9054-912a18af3656",
-    "reviewed": [],
-    "status": "downloaded"
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed"
   },
   {
     "key": "dry_0_1",
@@ -33,9 +38,14 @@
     "clothing": "heavy insulated expedition parkas, thermal base layers beneath chunky wool knits, insulated snow trousers, thick gloves, warm beanies, scarves, insulated winter boots, extreme cold alpine setting",
     "variants": 4,
     "assetBase": "couple_dry_0_1",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "da3eae6e-f2a0-4e5e-b98e-38863a8ff3a3",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed"
   },
   {
     "key": "dry_0_2",
@@ -52,9 +62,14 @@
     "clothing": "heavy insulated expedition parkas, thermal base layers beneath chunky wool knits, insulated snow trousers, thick gloves, warm beanies, scarves, insulated winter boots, extreme cold alpine setting",
     "variants": 4,
     "assetBase": "couple_dry_0_2",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "9a893e41-69c0-4952-bacc-ae79d25f013d",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed"
   },
   {
     "key": "dry_0_3",
@@ -71,9 +86,14 @@
     "clothing": "heavy insulated expedition parkas, thermal base layers beneath chunky wool knits, insulated snow trousers, thick gloves, warm beanies, scarves, insulated winter boots, extreme cold alpine setting",
     "variants": 4,
     "assetBase": "couple_dry_0_3",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "33020032-e234-4515-b0ee-d4908e5f346f",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed"
   },
   {
     "key": "dry_1_0",
@@ -90,9 +110,14 @@
     "clothing": "warm down winter coats over thick wool sweaters, lined trousers, knitted gloves, wool scarves and hats, insulated boots, snowy winter city",
     "variants": 4,
     "assetBase": "couple_dry_1_0",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "1c757351-620c-44f2-b47f-dbfcedcbf185",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed"
   },
   {
     "key": "dry_1_1",
