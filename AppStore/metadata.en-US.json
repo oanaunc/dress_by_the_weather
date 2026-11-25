@@ -32,5 +32,12 @@
     "China mainland"
   ],
   "releaseAfterApproval": "automatic",
-  "reviewContact": "Awaiting owner-provided email and phone; do not commit private review contact details."
+  "reviewContact": "Awaiting owner-provided email and phone; do not commit private review contact details.",
+  "buildProcessing": "Complete",
+  "selectedReleaseBuild": "5",
+  "submissionStatus": "Prepare for Submission",
+  "remainingRequirements": [
+    "Owner acceptance of Apple privacy accuracy certification and publishing saved privacy disclosures",
+    "App Review contact name, email and phone"
+  ]
 }
