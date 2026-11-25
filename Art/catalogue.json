@@ -1,0 +1,1223 @@
+[
+  {
+    "key": "dry_0_0",
+    "weather": "dry",
+    "temperatureBand": 0,
+    "temperatureRange": "Below −15°C",
+    "style": 0,
+    "occasion": "Everyday",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing heavy insulated expedition parkas, thermal base layers beneath chunky wool knits, insulated snow trousers, thick gloves, warm beanies, scarves, insulated winter boots, extreme cold alpine setting, refined everyday casual quiet luxury, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "heavy insulated expedition parkas, thermal base layers beneath chunky wool knits, insulated snow trousers, thick gloves, warm beanies, scarves, insulated winter boots, extreme cold alpine setting",
+    "variants": 4,
+    "assetBase": "couple_dry_0_0",
+    "jobID": "3d4fdc4c-7369-4bcd-9054-912a18af3656",
+    "reviewed": [],
+    "status": "downloaded"
+  },
+  {
+    "key": "dry_0_1",
+    "weather": "dry",
+    "temperatureBand": 0,
+    "temperatureRange": "Below −15°C",
+    "style": 1,
+    "occasion": "Office",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing heavy insulated expedition parkas, thermal base layers beneath chunky wool knits, insulated snow trousers, thick gloves, warm beanies, scarves, insulated winter boots, extreme cold alpine setting, polished professional office tailoring adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "heavy insulated expedition parkas, thermal base layers beneath chunky wool knits, insulated snow trousers, thick gloves, warm beanies, scarves, insulated winter boots, extreme cold alpine setting",
+    "variants": 4,
+    "assetBase": "couple_dry_0_1",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_0_2",
+    "weather": "dry",
+    "temperatureBand": 0,
+    "temperatureRange": "Below −15°C",
+    "style": 2,
+    "occasion": "Evening",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing heavy insulated expedition parkas, thermal base layers beneath chunky wool knits, insulated snow trousers, thick gloves, warm beanies, scarves, insulated winter boots, extreme cold alpine setting, sophisticated evening date night styling adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "heavy insulated expedition parkas, thermal base layers beneath chunky wool knits, insulated snow trousers, thick gloves, warm beanies, scarves, insulated winter boots, extreme cold alpine setting",
+    "variants": 4,
+    "assetBase": "couple_dry_0_2",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_0_3",
+    "weather": "dry",
+    "temperatureBand": 0,
+    "temperatureRange": "Below −15°C",
+    "style": 3,
+    "occasion": "Active",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing heavy insulated expedition parkas, thermal base layers beneath chunky wool knits, insulated snow trousers, thick gloves, warm beanies, scarves, insulated winter boots, extreme cold alpine setting, luxury technical sportswear with wicking active fabrics, supportive trainers for an active outdoor walk, weather appropriate protective layers, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "heavy insulated expedition parkas, thermal base layers beneath chunky wool knits, insulated snow trousers, thick gloves, warm beanies, scarves, insulated winter boots, extreme cold alpine setting",
+    "variants": 4,
+    "assetBase": "couple_dry_0_3",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_1_0",
+    "weather": "dry",
+    "temperatureBand": 1,
+    "temperatureRange": "−15 to −5°C",
+    "style": 0,
+    "occasion": "Everyday",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing warm down winter coats over thick wool sweaters, lined trousers, knitted gloves, wool scarves and hats, insulated boots, snowy winter city, refined everyday casual quiet luxury, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "warm down winter coats over thick wool sweaters, lined trousers, knitted gloves, wool scarves and hats, insulated boots, snowy winter city",
+    "variants": 4,
+    "assetBase": "couple_dry_1_0",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_1_1",
+    "weather": "dry",
+    "temperatureBand": 1,
+    "temperatureRange": "−15 to −5°C",
+    "style": 1,
+    "occasion": "Office",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing warm down winter coats over thick wool sweaters, lined trousers, knitted gloves, wool scarves and hats, insulated boots, snowy winter city, polished professional office tailoring adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "warm down winter coats over thick wool sweaters, lined trousers, knitted gloves, wool scarves and hats, insulated boots, snowy winter city",
+    "variants": 4,
+    "assetBase": "couple_dry_1_1",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_1_2",
+    "weather": "dry",
+    "temperatureBand": 1,
+    "temperatureRange": "−15 to −5°C",
+    "style": 2,
+    "occasion": "Evening",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing warm down winter coats over thick wool sweaters, lined trousers, knitted gloves, wool scarves and hats, insulated boots, snowy winter city, sophisticated evening date night styling adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "warm down winter coats over thick wool sweaters, lined trousers, knitted gloves, wool scarves and hats, insulated boots, snowy winter city",
+    "variants": 4,
+    "assetBase": "couple_dry_1_2",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_1_3",
+    "weather": "dry",
+    "temperatureBand": 1,
+    "temperatureRange": "−15 to −5°C",
+    "style": 3,
+    "occasion": "Active",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing warm down winter coats over thick wool sweaters, lined trousers, knitted gloves, wool scarves and hats, insulated boots, snowy winter city, luxury technical sportswear with wicking active fabrics, supportive trainers for an active outdoor walk, weather appropriate protective layers, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "warm down winter coats over thick wool sweaters, lined trousers, knitted gloves, wool scarves and hats, insulated boots, snowy winter city",
+    "variants": 4,
+    "assetBase": "couple_dry_1_3",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_2_0",
+    "weather": "dry",
+    "temperatureBand": 2,
+    "temperatureRange": "−5 to 5°C",
+    "style": 0,
+    "occasion": "Everyday",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing lined wool overcoats over merino sweaters and base layers, warm trousers, scarves, gloves, lined ankle boots, crisp winter street, refined everyday casual quiet luxury, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "lined wool overcoats over merino sweaters and base layers, warm trousers, scarves, gloves, lined ankle boots, crisp winter street",
+    "variants": 4,
+    "assetBase": "couple_dry_2_0",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_2_1",
+    "weather": "dry",
+    "temperatureBand": 2,
+    "temperatureRange": "−5 to 5°C",
+    "style": 1,
+    "occasion": "Office",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing lined wool overcoats over merino sweaters and base layers, warm trousers, scarves, gloves, lined ankle boots, crisp winter street, polished professional office tailoring adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "lined wool overcoats over merino sweaters and base layers, warm trousers, scarves, gloves, lined ankle boots, crisp winter street",
+    "variants": 4,
+    "assetBase": "couple_dry_2_1",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_2_2",
+    "weather": "dry",
+    "temperatureBand": 2,
+    "temperatureRange": "−5 to 5°C",
+    "style": 2,
+    "occasion": "Evening",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing lined wool overcoats over merino sweaters and base layers, warm trousers, scarves, gloves, lined ankle boots, crisp winter street, sophisticated evening date night styling adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "lined wool overcoats over merino sweaters and base layers, warm trousers, scarves, gloves, lined ankle boots, crisp winter street",
+    "variants": 4,
+    "assetBase": "couple_dry_2_2",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_2_3",
+    "weather": "dry",
+    "temperatureBand": 2,
+    "temperatureRange": "−5 to 5°C",
+    "style": 3,
+    "occasion": "Active",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing lined wool overcoats over merino sweaters and base layers, warm trousers, scarves, gloves, lined ankle boots, crisp winter street, luxury technical sportswear with wicking active fabrics, supportive trainers for an active outdoor walk, weather appropriate protective layers, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "lined wool overcoats over merino sweaters and base layers, warm trousers, scarves, gloves, lined ankle boots, crisp winter street",
+    "variants": 4,
+    "assetBase": "couple_dry_2_3",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_3_0",
+    "weather": "dry",
+    "temperatureBand": 3,
+    "temperatureRange": "5 to 10°C",
+    "style": 0,
+    "occasion": "Everyday",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing medium weight camel and charcoal wool coats, cashmere sweaters, long wool trousers, leather ankle boots, subtle scarves, cool autumn city, refined everyday casual quiet luxury, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "medium weight camel and charcoal wool coats, cashmere sweaters, long wool trousers, leather ankle boots, subtle scarves, cool autumn city",
+    "variants": 4,
+    "assetBase": "couple_dry_3_0",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_3_1",
+    "weather": "dry",
+    "temperatureBand": 3,
+    "temperatureRange": "5 to 10°C",
+    "style": 1,
+    "occasion": "Office",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing medium weight camel and charcoal wool coats, cashmere sweaters, long wool trousers, leather ankle boots, subtle scarves, cool autumn city, polished professional office tailoring adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "medium weight camel and charcoal wool coats, cashmere sweaters, long wool trousers, leather ankle boots, subtle scarves, cool autumn city",
+    "variants": 4,
+    "assetBase": "couple_dry_3_1",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_3_2",
+    "weather": "dry",
+    "temperatureBand": 3,
+    "temperatureRange": "5 to 10°C",
+    "style": 2,
+    "occasion": "Evening",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing medium weight camel and charcoal wool coats, cashmere sweaters, long wool trousers, leather ankle boots, subtle scarves, cool autumn city, sophisticated evening date night styling adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "medium weight camel and charcoal wool coats, cashmere sweaters, long wool trousers, leather ankle boots, subtle scarves, cool autumn city",
+    "variants": 4,
+    "assetBase": "couple_dry_3_2",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_3_3",
+    "weather": "dry",
+    "temperatureBand": 3,
+    "temperatureRange": "5 to 10°C",
+    "style": 3,
+    "occasion": "Active",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing medium weight camel and charcoal wool coats, cashmere sweaters, long wool trousers, leather ankle boots, subtle scarves, cool autumn city, luxury technical sportswear with wicking active fabrics, supportive trainers for an active outdoor walk, weather appropriate protective layers, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "medium weight camel and charcoal wool coats, cashmere sweaters, long wool trousers, leather ankle boots, subtle scarves, cool autumn city",
+    "variants": 4,
+    "assetBase": "couple_dry_3_3",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_4_0",
+    "weather": "dry",
+    "temperatureBand": 4,
+    "temperatureRange": "10 to 15°C",
+    "style": 0,
+    "occasion": "Everyday",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing light trench coats and fine knit sweaters, cotton twill trousers, closed leather sneakers, mild cloudy spring street, refined everyday casual quiet luxury, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "light trench coats and fine knit sweaters, cotton twill trousers, closed leather sneakers, mild cloudy spring street",
+    "variants": 4,
+    "assetBase": "couple_dry_4_0",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_4_1",
+    "weather": "dry",
+    "temperatureBand": 4,
+    "temperatureRange": "10 to 15°C",
+    "style": 1,
+    "occasion": "Office",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing light trench coats and fine knit sweaters, cotton twill trousers, closed leather sneakers, mild cloudy spring street, polished professional office tailoring adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "light trench coats and fine knit sweaters, cotton twill trousers, closed leather sneakers, mild cloudy spring street",
+    "variants": 4,
+    "assetBase": "couple_dry_4_1",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_4_2",
+    "weather": "dry",
+    "temperatureBand": 4,
+    "temperatureRange": "10 to 15°C",
+    "style": 2,
+    "occasion": "Evening",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing light trench coats and fine knit sweaters, cotton twill trousers, closed leather sneakers, mild cloudy spring street, sophisticated evening date night styling adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "light trench coats and fine knit sweaters, cotton twill trousers, closed leather sneakers, mild cloudy spring street",
+    "variants": 4,
+    "assetBase": "couple_dry_4_2",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_4_3",
+    "weather": "dry",
+    "temperatureBand": 4,
+    "temperatureRange": "10 to 15°C",
+    "style": 3,
+    "occasion": "Active",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing light trench coats and fine knit sweaters, cotton twill trousers, closed leather sneakers, mild cloudy spring street, luxury technical sportswear with wicking active fabrics, supportive trainers for an active outdoor walk, weather appropriate protective layers, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "light trench coats and fine knit sweaters, cotton twill trousers, closed leather sneakers, mild cloudy spring street",
+    "variants": 4,
+    "assetBase": "couple_dry_4_3",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_5_0",
+    "weather": "dry",
+    "temperatureBand": 5,
+    "temperatureRange": "15 to 20°C",
+    "style": 0,
+    "occasion": "Everyday",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing light cotton overshirts over long sleeve shirts, light trousers, breathable closed sneakers, pleasantly mild spring street, refined everyday casual quiet luxury, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "light cotton overshirts over long sleeve shirts, light trousers, breathable closed sneakers, pleasantly mild spring street",
+    "variants": 4,
+    "assetBase": "couple_dry_5_0",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_5_1",
+    "weather": "dry",
+    "temperatureBand": 5,
+    "temperatureRange": "15 to 20°C",
+    "style": 1,
+    "occasion": "Office",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing light cotton overshirts over long sleeve shirts, light trousers, breathable closed sneakers, pleasantly mild spring street, polished professional office tailoring adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "light cotton overshirts over long sleeve shirts, light trousers, breathable closed sneakers, pleasantly mild spring street",
+    "variants": 4,
+    "assetBase": "couple_dry_5_1",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_5_2",
+    "weather": "dry",
+    "temperatureBand": 5,
+    "temperatureRange": "15 to 20°C",
+    "style": 2,
+    "occasion": "Evening",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing light cotton overshirts over long sleeve shirts, light trousers, breathable closed sneakers, pleasantly mild spring street, sophisticated evening date night styling adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "light cotton overshirts over long sleeve shirts, light trousers, breathable closed sneakers, pleasantly mild spring street",
+    "variants": 4,
+    "assetBase": "couple_dry_5_2",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_5_3",
+    "weather": "dry",
+    "temperatureBand": 5,
+    "temperatureRange": "15 to 20°C",
+    "style": 3,
+    "occasion": "Active",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing light cotton overshirts over long sleeve shirts, light trousers, breathable closed sneakers, pleasantly mild spring street, luxury technical sportswear with wicking active fabrics, supportive trainers for an active outdoor walk, weather appropriate protective layers, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "light cotton overshirts over long sleeve shirts, light trousers, breathable closed sneakers, pleasantly mild spring street",
+    "variants": 4,
+    "assetBase": "couple_dry_5_3",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_6_0",
+    "weather": "dry",
+    "temperatureBand": 6,
+    "temperatureRange": "20 to 25°C",
+    "style": 0,
+    "occasion": "Everyday",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing cotton tees and airy cotton blouses, light linen blend trousers, breathable sneakers, warm sunny city, refined everyday casual quiet luxury, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "cotton tees and airy cotton blouses, light linen blend trousers, breathable sneakers, warm sunny city",
+    "variants": 4,
+    "assetBase": "couple_dry_6_0",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_6_1",
+    "weather": "dry",
+    "temperatureBand": 6,
+    "temperatureRange": "20 to 25°C",
+    "style": 1,
+    "occasion": "Office",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing cotton tees and airy cotton blouses, light linen blend trousers, breathable sneakers, warm sunny city, polished professional office tailoring adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "cotton tees and airy cotton blouses, light linen blend trousers, breathable sneakers, warm sunny city",
+    "variants": 4,
+    "assetBase": "couple_dry_6_1",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_6_2",
+    "weather": "dry",
+    "temperatureBand": 6,
+    "temperatureRange": "20 to 25°C",
+    "style": 2,
+    "occasion": "Evening",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing cotton tees and airy cotton blouses, light linen blend trousers, breathable sneakers, warm sunny city, sophisticated evening date night styling adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "cotton tees and airy cotton blouses, light linen blend trousers, breathable sneakers, warm sunny city",
+    "variants": 4,
+    "assetBase": "couple_dry_6_2",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_6_3",
+    "weather": "dry",
+    "temperatureBand": 6,
+    "temperatureRange": "20 to 25°C",
+    "style": 3,
+    "occasion": "Active",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing cotton tees and airy cotton blouses, light linen blend trousers, breathable sneakers, warm sunny city, luxury technical sportswear with wicking active fabrics, supportive trainers for an active outdoor walk, weather appropriate protective layers, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "cotton tees and airy cotton blouses, light linen blend trousers, breathable sneakers, warm sunny city",
+    "variants": 4,
+    "assetBase": "couple_dry_6_3",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_7_0",
+    "weather": "dry",
+    "temperatureBand": 7,
+    "temperatureRange": "25 to 30°C",
+    "style": 0,
+    "occasion": "Everyday",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing airy cream linen shirts, relaxed ivory linen trousers, tan sandals, raffia tote, sunny Mediterranean terrace, refined everyday casual quiet luxury, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "airy cream linen shirts, relaxed ivory linen trousers, tan sandals, raffia tote, sunny Mediterranean terrace",
+    "variants": 4,
+    "assetBase": "couple_dry_7_0",
+    "jobID": "8d616be0-2d1e-485d-a8ff-4db455c0bdb1",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed"
+  },
+  {
+    "key": "dry_7_1",
+    "weather": "dry",
+    "temperatureBand": 7,
+    "temperatureRange": "25 to 30°C",
+    "style": 1,
+    "occasion": "Office",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing airy cream linen shirts, relaxed ivory linen trousers, tan sandals, raffia tote, sunny Mediterranean terrace, polished professional office tailoring adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "airy cream linen shirts, relaxed ivory linen trousers, tan sandals, raffia tote, sunny Mediterranean terrace",
+    "variants": 4,
+    "assetBase": "couple_dry_7_1",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_7_2",
+    "weather": "dry",
+    "temperatureBand": 7,
+    "temperatureRange": "25 to 30°C",
+    "style": 2,
+    "occasion": "Evening",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing airy cream linen shirts, relaxed ivory linen trousers, tan sandals, raffia tote, sunny Mediterranean terrace, sophisticated evening date night styling adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "airy cream linen shirts, relaxed ivory linen trousers, tan sandals, raffia tote, sunny Mediterranean terrace",
+    "variants": 4,
+    "assetBase": "couple_dry_7_2",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_7_3",
+    "weather": "dry",
+    "temperatureBand": 7,
+    "temperatureRange": "25 to 30°C",
+    "style": 3,
+    "occasion": "Active",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing airy cream linen shirts, relaxed ivory linen trousers, tan sandals, raffia tote, sunny Mediterranean terrace, luxury technical sportswear with wicking active fabrics, supportive trainers for an active outdoor walk, weather appropriate protective layers, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "airy cream linen shirts, relaxed ivory linen trousers, tan sandals, raffia tote, sunny Mediterranean terrace",
+    "variants": 4,
+    "assetBase": "couple_dry_7_3",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_8_0",
+    "weather": "dry",
+    "temperatureBand": 8,
+    "temperatureRange": "30 to 35°C",
+    "style": 0,
+    "occasion": "Everyday",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing loose lightweight linen tops, breathable shorts and airy midi skirt, comfortable sandals, sunglasses and sun hats, hot sunny Mediterranean street, refined everyday casual quiet luxury, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "loose lightweight linen tops, breathable shorts and airy midi skirt, comfortable sandals, sunglasses and sun hats, hot sunny Mediterranean street",
+    "variants": 4,
+    "assetBase": "couple_dry_8_0",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_8_1",
+    "weather": "dry",
+    "temperatureBand": 8,
+    "temperatureRange": "30 to 35°C",
+    "style": 1,
+    "occasion": "Office",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing loose lightweight linen tops, breathable shorts and airy midi skirt, comfortable sandals, sunglasses and sun hats, hot sunny Mediterranean street, polished professional office tailoring adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "loose lightweight linen tops, breathable shorts and airy midi skirt, comfortable sandals, sunglasses and sun hats, hot sunny Mediterranean street",
+    "variants": 4,
+    "assetBase": "couple_dry_8_1",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_8_2",
+    "weather": "dry",
+    "temperatureBand": 8,
+    "temperatureRange": "30 to 35°C",
+    "style": 2,
+    "occasion": "Evening",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing loose lightweight linen tops, breathable shorts and airy midi skirt, comfortable sandals, sunglasses and sun hats, hot sunny Mediterranean street, sophisticated evening date night styling adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "loose lightweight linen tops, breathable shorts and airy midi skirt, comfortable sandals, sunglasses and sun hats, hot sunny Mediterranean street",
+    "variants": 4,
+    "assetBase": "couple_dry_8_2",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_8_3",
+    "weather": "dry",
+    "temperatureBand": 8,
+    "temperatureRange": "30 to 35°C",
+    "style": 3,
+    "occasion": "Active",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing loose lightweight linen tops, breathable shorts and airy midi skirt, comfortable sandals, sunglasses and sun hats, hot sunny Mediterranean street, luxury technical sportswear with wicking active fabrics, supportive trainers for an active outdoor walk, weather appropriate protective layers, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "loose lightweight linen tops, breathable shorts and airy midi skirt, comfortable sandals, sunglasses and sun hats, hot sunny Mediterranean street",
+    "variants": 4,
+    "assetBase": "couple_dry_8_3",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_9_0",
+    "weather": "dry",
+    "temperatureBand": 9,
+    "temperatureRange": "35°C and above",
+    "style": 0,
+    "occasion": "Everyday",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing very light loose sun protective long sleeve linen shirts, loose pale linen trousers, ventilated sandals, wide brim sun hats, sunglasses, refillable water bottles, shaded terrace on extremely hot day, refined everyday casual quiet luxury, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "very light loose sun protective long sleeve linen shirts, loose pale linen trousers, ventilated sandals, wide brim sun hats, sunglasses, refillable water bottles, shaded terrace on extremely hot day",
+    "variants": 4,
+    "assetBase": "couple_dry_9_0",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_9_1",
+    "weather": "dry",
+    "temperatureBand": 9,
+    "temperatureRange": "35°C and above",
+    "style": 1,
+    "occasion": "Office",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing very light loose sun protective long sleeve linen shirts, loose pale linen trousers, ventilated sandals, wide brim sun hats, sunglasses, refillable water bottles, shaded terrace on extremely hot day, polished professional office tailoring adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "very light loose sun protective long sleeve linen shirts, loose pale linen trousers, ventilated sandals, wide brim sun hats, sunglasses, refillable water bottles, shaded terrace on extremely hot day",
+    "variants": 4,
+    "assetBase": "couple_dry_9_1",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_9_2",
+    "weather": "dry",
+    "temperatureBand": 9,
+    "temperatureRange": "35°C and above",
+    "style": 2,
+    "occasion": "Evening",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing very light loose sun protective long sleeve linen shirts, loose pale linen trousers, ventilated sandals, wide brim sun hats, sunglasses, refillable water bottles, shaded terrace on extremely hot day, sophisticated evening date night styling adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "very light loose sun protective long sleeve linen shirts, loose pale linen trousers, ventilated sandals, wide brim sun hats, sunglasses, refillable water bottles, shaded terrace on extremely hot day",
+    "variants": 4,
+    "assetBase": "couple_dry_9_2",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "dry_9_3",
+    "weather": "dry",
+    "temperatureBand": 9,
+    "temperatureRange": "35°C and above",
+    "style": 3,
+    "occasion": "Active",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing very light loose sun protective long sleeve linen shirts, loose pale linen trousers, ventilated sandals, wide brim sun hats, sunglasses, refillable water bottles, shaded terrace on extremely hot day, luxury technical sportswear with wicking active fabrics, supportive trainers for an active outdoor walk, weather appropriate protective layers, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "very light loose sun protective long sleeve linen shirts, loose pale linen trousers, ventilated sandals, wide brim sun hats, sunglasses, refillable water bottles, shaded terrace on extremely hot day",
+    "variants": 4,
+    "assetBase": "couple_dry_9_3",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "rain_3_0",
+    "weather": "rain",
+    "temperatureBand": 3,
+    "temperatureRange": "5 to 10°C",
+    "style": 0,
+    "occasion": "Everyday",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing warm waterproof hooded coats over merino knits, full length warm trousers, waterproof grippy ankle boots, cold rainy city street, refined everyday casual quiet luxury, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "warm waterproof hooded coats over merino knits, full length warm trousers, waterproof grippy ankle boots, cold rainy city street",
+    "variants": 4,
+    "assetBase": "couple_rain_3_0",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "rain_3_1",
+    "weather": "rain",
+    "temperatureBand": 3,
+    "temperatureRange": "5 to 10°C",
+    "style": 1,
+    "occasion": "Office",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing warm waterproof hooded coats over merino knits, full length warm trousers, waterproof grippy ankle boots, cold rainy city street, polished professional office tailoring adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "warm waterproof hooded coats over merino knits, full length warm trousers, waterproof grippy ankle boots, cold rainy city street",
+    "variants": 4,
+    "assetBase": "couple_rain_3_1",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "rain_3_2",
+    "weather": "rain",
+    "temperatureBand": 3,
+    "temperatureRange": "5 to 10°C",
+    "style": 2,
+    "occasion": "Evening",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing warm waterproof hooded coats over merino knits, full length warm trousers, waterproof grippy ankle boots, cold rainy city street, sophisticated evening date night styling adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "warm waterproof hooded coats over merino knits, full length warm trousers, waterproof grippy ankle boots, cold rainy city street",
+    "variants": 4,
+    "assetBase": "couple_rain_3_2",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "rain_3_3",
+    "weather": "rain",
+    "temperatureBand": 3,
+    "temperatureRange": "5 to 10°C",
+    "style": 3,
+    "occasion": "Active",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing warm waterproof hooded coats over merino knits, full length warm trousers, waterproof grippy ankle boots, cold rainy city street, luxury technical sportswear with wicking active fabrics, supportive trainers for an active outdoor walk, weather appropriate protective layers, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "warm waterproof hooded coats over merino knits, full length warm trousers, waterproof grippy ankle boots, cold rainy city street",
+    "variants": 4,
+    "assetBase": "couple_rain_3_3",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "rain_4_0",
+    "weather": "rain",
+    "temperatureBand": 4,
+    "temperatureRange": "10 to 15°C",
+    "style": 0,
+    "occasion": "Everyday",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing light waterproof trench coats over fine knits, long cotton trousers, water resistant closed shoes, umbrella, mild rainy city, refined everyday casual quiet luxury, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "light waterproof trench coats over fine knits, long cotton trousers, water resistant closed shoes, umbrella, mild rainy city",
+    "variants": 4,
+    "assetBase": "couple_rain_4_0",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "rain_4_1",
+    "weather": "rain",
+    "temperatureBand": 4,
+    "temperatureRange": "10 to 15°C",
+    "style": 1,
+    "occasion": "Office",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing light waterproof trench coats over fine knits, long cotton trousers, water resistant closed shoes, umbrella, mild rainy city, polished professional office tailoring adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "light waterproof trench coats over fine knits, long cotton trousers, water resistant closed shoes, umbrella, mild rainy city",
+    "variants": 4,
+    "assetBase": "couple_rain_4_1",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "rain_4_2",
+    "weather": "rain",
+    "temperatureBand": 4,
+    "temperatureRange": "10 to 15°C",
+    "style": 2,
+    "occasion": "Evening",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing light waterproof trench coats over fine knits, long cotton trousers, water resistant closed shoes, umbrella, mild rainy city, sophisticated evening date night styling adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "light waterproof trench coats over fine knits, long cotton trousers, water resistant closed shoes, umbrella, mild rainy city",
+    "variants": 4,
+    "assetBase": "couple_rain_4_2",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "rain_4_3",
+    "weather": "rain",
+    "temperatureBand": 4,
+    "temperatureRange": "10 to 15°C",
+    "style": 3,
+    "occasion": "Active",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing light waterproof trench coats over fine knits, long cotton trousers, water resistant closed shoes, umbrella, mild rainy city, luxury technical sportswear with wicking active fabrics, supportive trainers for an active outdoor walk, weather appropriate protective layers, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "light waterproof trench coats over fine knits, long cotton trousers, water resistant closed shoes, umbrella, mild rainy city",
+    "variants": 4,
+    "assetBase": "couple_rain_4_3",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "rain_6_0",
+    "weather": "rain",
+    "temperatureBand": 6,
+    "temperatureRange": "20 to 25°C",
+    "style": 0,
+    "occasion": "Everyday",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing breathable lightweight rain shells over cotton shirts, lightweight full length trousers, waterproof closed shoes, umbrella, warm rainy city, refined everyday casual quiet luxury, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "breathable lightweight rain shells over cotton shirts, lightweight full length trousers, waterproof closed shoes, umbrella, warm rainy city",
+    "variants": 4,
+    "assetBase": "couple_rain_6_0",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "rain_6_1",
+    "weather": "rain",
+    "temperatureBand": 6,
+    "temperatureRange": "20 to 25°C",
+    "style": 1,
+    "occasion": "Office",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing breathable lightweight rain shells over cotton shirts, lightweight full length trousers, waterproof closed shoes, umbrella, warm rainy city, polished professional office tailoring adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "breathable lightweight rain shells over cotton shirts, lightweight full length trousers, waterproof closed shoes, umbrella, warm rainy city",
+    "variants": 4,
+    "assetBase": "couple_rain_6_1",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "rain_6_2",
+    "weather": "rain",
+    "temperatureBand": 6,
+    "temperatureRange": "20 to 25°C",
+    "style": 2,
+    "occasion": "Evening",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing breathable lightweight rain shells over cotton shirts, lightweight full length trousers, waterproof closed shoes, umbrella, warm rainy city, sophisticated evening date night styling adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "breathable lightweight rain shells over cotton shirts, lightweight full length trousers, waterproof closed shoes, umbrella, warm rainy city",
+    "variants": 4,
+    "assetBase": "couple_rain_6_2",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "rain_6_3",
+    "weather": "rain",
+    "temperatureBand": 6,
+    "temperatureRange": "20 to 25°C",
+    "style": 3,
+    "occasion": "Active",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing breathable lightweight rain shells over cotton shirts, lightweight full length trousers, waterproof closed shoes, umbrella, warm rainy city, luxury technical sportswear with wicking active fabrics, supportive trainers for an active outdoor walk, weather appropriate protective layers, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "breathable lightweight rain shells over cotton shirts, lightweight full length trousers, waterproof closed shoes, umbrella, warm rainy city",
+    "variants": 4,
+    "assetBase": "couple_rain_6_3",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "rain_8_0",
+    "weather": "rain",
+    "temperatureBand": 8,
+    "temperatureRange": "30 to 35°C",
+    "style": 0,
+    "occasion": "Everyday",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing ultralight breathable rain shells over airy linen shirts, loose light trousers, lightweight water resistant closed shoes, umbrella, humid hot rainy city, refined everyday casual quiet luxury, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "ultralight breathable rain shells over airy linen shirts, loose light trousers, lightweight water resistant closed shoes, umbrella, humid hot rainy city",
+    "variants": 4,
+    "assetBase": "couple_rain_8_0",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "rain_8_1",
+    "weather": "rain",
+    "temperatureBand": 8,
+    "temperatureRange": "30 to 35°C",
+    "style": 1,
+    "occasion": "Office",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing ultralight breathable rain shells over airy linen shirts, loose light trousers, lightweight water resistant closed shoes, umbrella, humid hot rainy city, polished professional office tailoring adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "ultralight breathable rain shells over airy linen shirts, loose light trousers, lightweight water resistant closed shoes, umbrella, humid hot rainy city",
+    "variants": 4,
+    "assetBase": "couple_rain_8_1",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "rain_8_2",
+    "weather": "rain",
+    "temperatureBand": 8,
+    "temperatureRange": "30 to 35°C",
+    "style": 2,
+    "occasion": "Evening",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing ultralight breathable rain shells over airy linen shirts, loose light trousers, lightweight water resistant closed shoes, umbrella, humid hot rainy city, sophisticated evening date night styling adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "ultralight breathable rain shells over airy linen shirts, loose light trousers, lightweight water resistant closed shoes, umbrella, humid hot rainy city",
+    "variants": 4,
+    "assetBase": "couple_rain_8_2",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "rain_8_3",
+    "weather": "rain",
+    "temperatureBand": 8,
+    "temperatureRange": "30 to 35°C",
+    "style": 3,
+    "occasion": "Active",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing ultralight breathable rain shells over airy linen shirts, loose light trousers, lightweight water resistant closed shoes, umbrella, humid hot rainy city, luxury technical sportswear with wicking active fabrics, supportive trainers for an active outdoor walk, weather appropriate protective layers, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "ultralight breathable rain shells over airy linen shirts, loose light trousers, lightweight water resistant closed shoes, umbrella, humid hot rainy city",
+    "variants": 4,
+    "assetBase": "couple_rain_8_3",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "snow_1_0",
+    "weather": "snow",
+    "temperatureBand": 1,
+    "temperatureRange": "−15 to −5°C",
+    "style": 0,
+    "occasion": "Everyday",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing heavy waterproof insulated hooded winter coats over wool knits and thermal base layers, insulated full length trousers, waterproof insulated grippy snow boots, warm beanies, gloves and scarves, heavy snow in a winter city, refined everyday casual quiet luxury, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "heavy waterproof insulated hooded winter coats over wool knits and thermal base layers, insulated full length trousers, waterproof insulated grippy snow boots, warm beanies, gloves and scarves, heavy snow in a winter city",
+    "variants": 4,
+    "assetBase": "couple_snow_1_0",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "snow_1_1",
+    "weather": "snow",
+    "temperatureBand": 1,
+    "temperatureRange": "−15 to −5°C",
+    "style": 1,
+    "occasion": "Office",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing heavy waterproof insulated hooded winter coats over wool knits and thermal base layers, insulated full length trousers, waterproof insulated grippy snow boots, warm beanies, gloves and scarves, heavy snow in a winter city, polished professional office tailoring adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "heavy waterproof insulated hooded winter coats over wool knits and thermal base layers, insulated full length trousers, waterproof insulated grippy snow boots, warm beanies, gloves and scarves, heavy snow in a winter city",
+    "variants": 4,
+    "assetBase": "couple_snow_1_1",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "snow_1_2",
+    "weather": "snow",
+    "temperatureBand": 1,
+    "temperatureRange": "−15 to −5°C",
+    "style": 2,
+    "occasion": "Evening",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing heavy waterproof insulated hooded winter coats over wool knits and thermal base layers, insulated full length trousers, waterproof insulated grippy snow boots, warm beanies, gloves and scarves, heavy snow in a winter city, sophisticated evening date night styling adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "heavy waterproof insulated hooded winter coats over wool knits and thermal base layers, insulated full length trousers, waterproof insulated grippy snow boots, warm beanies, gloves and scarves, heavy snow in a winter city",
+    "variants": 4,
+    "assetBase": "couple_snow_1_2",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "snow_1_3",
+    "weather": "snow",
+    "temperatureBand": 1,
+    "temperatureRange": "−15 to −5°C",
+    "style": 3,
+    "occasion": "Active",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing heavy waterproof insulated hooded winter coats over wool knits and thermal base layers, insulated full length trousers, waterproof insulated grippy snow boots, warm beanies, gloves and scarves, heavy snow in a winter city, luxury technical sportswear with wicking active fabrics, supportive trainers for an active outdoor walk, weather appropriate protective layers, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "heavy waterproof insulated hooded winter coats over wool knits and thermal base layers, insulated full length trousers, waterproof insulated grippy snow boots, warm beanies, gloves and scarves, heavy snow in a winter city",
+    "variants": 4,
+    "assetBase": "couple_snow_1_3",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "snow_2_0",
+    "weather": "snow",
+    "temperatureBand": 2,
+    "temperatureRange": "−5 to 5°C",
+    "style": 0,
+    "occasion": "Everyday",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing waterproof insulated coats over merino sweaters, warm lined trousers, waterproof snow boots, hats gloves scarves, light snowfall in a city, refined everyday casual quiet luxury, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "waterproof insulated coats over merino sweaters, warm lined trousers, waterproof snow boots, hats gloves scarves, light snowfall in a city",
+    "variants": 4,
+    "assetBase": "couple_snow_2_0",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "snow_2_1",
+    "weather": "snow",
+    "temperatureBand": 2,
+    "temperatureRange": "−5 to 5°C",
+    "style": 1,
+    "occasion": "Office",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing waterproof insulated coats over merino sweaters, warm lined trousers, waterproof snow boots, hats gloves scarves, light snowfall in a city, polished professional office tailoring adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "waterproof insulated coats over merino sweaters, warm lined trousers, waterproof snow boots, hats gloves scarves, light snowfall in a city",
+    "variants": 4,
+    "assetBase": "couple_snow_2_1",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "snow_2_2",
+    "weather": "snow",
+    "temperatureBand": 2,
+    "temperatureRange": "−5 to 5°C",
+    "style": 2,
+    "occasion": "Evening",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing waterproof insulated coats over merino sweaters, warm lined trousers, waterproof snow boots, hats gloves scarves, light snowfall in a city, sophisticated evening date night styling adapted to the weather, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "waterproof insulated coats over merino sweaters, warm lined trousers, waterproof snow boots, hats gloves scarves, light snowfall in a city",
+    "variants": 4,
+    "assetBase": "couple_snow_2_2",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  },
+  {
+    "key": "snow_2_3",
+    "weather": "snow",
+    "temperatureBand": 2,
+    "temperatureRange": "−5 to 5°C",
+    "style": 3,
+    "occasion": "Active",
+    "models": [
+      "man",
+      "woman"
+    ],
+    "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing waterproof insulated coats over merino sweaters, warm lined trousers, waterproof snow boots, hats gloves scarves, light snowfall in a city, luxury technical sportswear with wicking active fabrics, supportive trainers for an active outdoor walk, weather appropriate protective layers, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
+    "clothing": "waterproof insulated coats over merino sweaters, warm lined trousers, waterproof snow boots, hats gloves scarves, light snowfall in a city",
+    "variants": 4,
+    "assetBase": "couple_snow_2_3",
+    "jobID": null,
+    "reviewed": [],
+    "status": "planned"
+  }
+]

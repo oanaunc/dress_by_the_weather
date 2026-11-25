@@ -1,0 +1,85 @@
+name: DressByTheWeather
+options:
+  bundleIdPrefix: com.oanarinaldi
+  deploymentTarget:
+    iOS: "26.0"
+packages:
+  WeatherStyle:
+    path: Core
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    DEVELOPMENT_TEAM: HBD3XXQK45
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    CODE_SIGN_STYLE: Automatic
+    TARGETED_DEVICE_FAMILY: "1,2"
+targets:
+  DressByTheWeather:
+    type: application
+    platform: iOS
+    sources: [App]
+    dependencies:
+      - package: WeatherStyle
+      - target: DressWidget
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.oanarinaldi.dressbytheweather
+        INFOPLIST_FILE: App/Info.plist
+        CODE_SIGN_ENTITLEMENTS: App/Dress.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: Dress by the Weather
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        NSLocationWhenInUseUsageDescription: Your approximate location is used to find local weather and suggest what to wear. You can choose a city instead.
+        ITSAppUsesNonExemptEncryption: false
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UISupportedInterfaceOrientations~ipad: [UIInterfaceOrientationPortrait, UIInterfaceOrientationPortraitUpsideDown, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        CFBundleURLTypes:
+          - CFBundleURLSchemes: [dressweather]
+    entitlements:
+      path: App/Dress.entitlements
+      properties:
+        com.apple.security.application-groups: [group.com.oanarinaldi.dressbytheweather]
+  DressWidget:
+    type: app-extension
+    platform: iOS
+    sources: [Widgets]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.oanarinaldi.dressbytheweather.widget
+        APPLICATION_EXTENSION_API_ONLY: YES
+        INFOPLIST_FILE: Widgets/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Widgets/Widget.entitlements
+        SKIP_INSTALL: YES
+    info:
+      path: Widgets/Info.plist
+      properties:
+        CFBundleDisplayName: Dress Weather
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    entitlements:
+      path: Widgets/Widget.entitlements
+      properties:
+        com.apple.security.application-groups: [group.com.oanarinaldi.dressbytheweather]
+  DressUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [UITests]
+    dependencies:
+      - target: DressByTheWeather
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.oanarinaldi.dressbytheweather.uitests
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  DressByTheWeather:
+    build:
+      targets:
+        DressByTheWeather: all
+    test:
+      targets: [DressUITests]
