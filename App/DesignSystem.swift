@@ -97,7 +97,7 @@ struct EmptyWeather: View {
             Image(systemName: "cloud.sun").font(.system(size: 60, weight: .ultraLight)).foregroundStyle(Theme.olive)
             Text("A forecast for\nyour wardrobe.").font(Theme.editorial(36)).multilineTextAlignment(.center)
             Text(model.error ?? "Get the latest forecast to find your perfect layers.").font(.subheadline).foregroundStyle(Theme.muted).multilineTextAlignment(.center)
-            Button { Task { await model.refresh() } } label: { if model.loading { ProgressView() } else { Label("Load free weather", systemImage: "arrow.clockwise") } }.buttonStyle(.borderedProminent).disabled(model.loading)
+            Button { Task { await model.refresh() } } label: { if model.loading { ProgressView() } else { Label("Load free weather", systemImage: "arrow.clockwise") } }.buttonStyle(.borderedProminent).foregroundStyle(.white).disabled(model.loading)
             Button("Explore a sample forecast") { model.showPreview() }.font(.subheadline)
         }.padding(32).frame(maxWidth: .infinity, minHeight: 400).glassCard()
     }

@@ -1,6 +1,21 @@
 import XCTest
 
 final class AppFlowTests: XCTestCase {
+    @MainActor func testStoreScreenshots() throws {
+        let app = XCUIApplication(); app.launchArguments = ["--preview", "--uitesting-reset"]; app.launch()
+        XCTAssertTrue(app.buttons["todayOutfit"].waitForExistence(timeout: 15))
+        func capture(_ name: String) {
+            let shot = XCTAttachment(screenshot: app.screenshot())
+            shot.name = "Store-\(name)"; shot.lifetime = .keepAlways; add(shot)
+        }
+        capture("Today")
+        for tab in ["Forecast", "Looks", "Planner", "You"] {
+            let phoneTab = app.tabBars.buttons[tab]
+            (phoneTab.exists ? phoneTab : app.buttons[tab].firstMatch).tap()
+            if tab == "Planner" { XCTAssertTrue(app.buttons["newTrip"].waitForExistence(timeout: 5)) }
+            capture(tab)
+        }
+    }
     @MainActor func testPreviewSaveAndPreferences() throws {
         let app = XCUIApplication(); app.launchArguments = ["--preview", "--uitesting-reset"]; app.launch()
         XCTAssertTrue(app.otherElements["previewBanner"].waitForExistence(timeout: 10) || app.staticTexts["Sample forecast · not live weather"].waitForExistence(timeout: 5))

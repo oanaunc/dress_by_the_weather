@@ -13,7 +13,7 @@ struct PlannerView: View {
                     VStack(alignment: .leading, spacing: 8) { Text("THE ART OF THE GETAWAY").font(.system(size: 9, design: .monospaced)).tracking(2); Text("A forecast. A capsule.\nA lighter suitcase.").font(Theme.editorial(30)) }.foregroundStyle(.white).padding(22)
                 }.clipShape(.rect(cornerRadius: 28))
                 Text("Choose your destination and dates. Build a packing list from its actual weather, including the warmest, coldest and wettest parts of your trip.").font(.subheadline).foregroundStyle(Theme.muted).lineSpacing(5)
-                Button { newTrip = true } label: { Label("Plan a new trip", systemImage: "plus").padding(9).frame(maxWidth: .infinity) }.buttonStyle(.borderedProminent).accessibilityIdentifier("newTrip")
+                Button { newTrip = true } label: { Label("Plan a new trip", systemImage: "plus").padding(9).frame(maxWidth: .infinity) }.buttonStyle(.borderedProminent).foregroundStyle(.white).accessibilityIdentifier("newTrip")
                 if model.trips.isEmpty { ContentUnavailableView("Your next chapter", systemImage: "suitcase.rolling", description: Text("Trips and packing lists stay on this device. Plan up to eight days ahead.")) }
                 ForEach(model.trips) { trip in
                     NavigationLink { PackingListView(tripID: trip.id) } label: {

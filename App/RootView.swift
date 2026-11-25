@@ -36,7 +36,7 @@ struct OnboardingView: View {
                     Text("Your forecast.\nYour outfit.").font(Theme.editorial(48)).lineSpacing(-3)
                     Text("A little weather intelligence. A lot of personal style. Know what to wear, before you step outside.").font(.subheadline).foregroundStyle(Theme.muted).lineSpacing(4)
                     HStack { Label("No account", systemImage: "person.crop.circle.badge.checkmark"); Spacer(); Label("Free weather", systemImage: "cloud.sun") }.font(.caption)
-                    Button { showLocations = true } label: { HStack { Text("Find my city"); Spacer(); Image(systemName: "arrow.right") }.padding(12).frame(maxWidth: .infinity) }.buttonStyle(.borderedProminent).accessibilityIdentifier("findCity")
+                    Button { showLocations = true } label: { HStack { Text("Find my city"); Spacer(); Image(systemName: "arrow.right") }.padding(12).frame(maxWidth: .infinity) }.buttonStyle(.borderedProminent).foregroundStyle(.white).accessibilityIdentifier("findCity")
                     Button { model.requestLocation() } label: { HStack { Spacer(); if model.locating { ProgressView() }; Label("Use my current location", systemImage: "location"); Spacer() } }.buttonStyle(.glass).disabled(model.locating)
                     Button("Explore the sample edition") { model.completedOnboarding = true; model.showPreview() }.font(.caption).frame(maxWidth: .infinity)
                     if let error = model.error { Text(error).font(.caption).foregroundStyle(.red) }
