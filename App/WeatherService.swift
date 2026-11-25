@@ -57,9 +57,11 @@ actor WeatherService {
             throw ForecastError.throttled
         }
         if http.statusCode == 304, let previous = cache[key] {
-            let entry = CacheEntry(forecast: previous.forecast, expires: max(expiry, Date().addingTimeInterval(60)), lastModified: previous.lastModified)
+            var validated = previous.forecast
+            validated.fetchedAt = Date()
+            let entry = CacheEntry(forecast: validated, expires: max(expiry, Date().addingTimeInterval(60)), lastModified: previous.lastModified)
             cache[key] = entry; try? JSONEncoder().encode(entry).write(to: file, options: .atomic)
-            return entry.forecast
+            return validated
         }
         guard http.statusCode == 200 else { throw ForecastError.http(http.statusCode) }
         let forecast = try METResponse.decode(data)

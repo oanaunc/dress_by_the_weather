@@ -6,16 +6,17 @@ struct OutfitDetailView: View {
     @Environment(\.dismiss) private var dismiss
     let conditions: Conditions
     let style: FashionStyle
+    var savedComfort: Double? = nil
     @State private var saved = false
     @State private var profile = "Both"
     @State private var adjustment = 0.0
     @State private var variant = 0
-    private var look: Outfit { OutfitEngine.recommend(conditions, style: style, comfort: model.comfort + adjustment) }
+    private var look: Outfit { OutfitEngine.recommend(conditions, style: style, comfort: (savedComfort ?? model.comfort) + adjustment) }
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
-                    OutfitArtwork(outfit: look, height: 380, variant: variant)
+                    OutfitArtwork(outfit: look, height: 380, variant: variant, fullLength: true)
                     Button { withAnimation { variant = (variant + 1) % 4 } } label: { Label("Another look", systemImage: "shuffle").frame(maxWidth: .infinity) }.buttonStyle(.glass)
                     PageHeading(eyebrow: "\(style.rawValue) · \(look.band.range)", title: look.title)
                     Picker("Outfit profile", selection: $profile) { Text("Both").tag("Both"); Text("Women").tag("Women"); Text("Men").tag("Men") }.pickerStyle(.segmented)
@@ -30,7 +31,7 @@ struct OutfitDetailView: View {
                     if !look.bring.isEmpty { VStack(alignment: .leading, spacing: 10) { Eyebrow(text: "A few things to bring"); Text(look.bring.joined(separator: " · ")).font(.subheadline).lineSpacing(5) }.glassCard() }
                     VStack(alignment: .leading, spacing: 12) { Eyebrow(text: "Why this works"); Text(look.explanation).font(.subheadline).lineSpacing(5); if let caution = look.caution { Label(caution, systemImage: "exclamationmark.triangle").font(.caption).foregroundStyle(.orange) } }.glassCard()
                     HStack { Button("Warmer") { adjustment = min(6, adjustment + 3) }.buttonStyle(.glass); Button("Lighter") { adjustment = max(-6, adjustment - 3) }.buttonStyle(.glass); Spacer(); if adjustment != 0 { Button("Reset") { adjustment = 0 }.font(.caption) } }
-                    Button { model.saveLook(conditions, style: style); saved = true } label: { Label(saved ? "Saved to your looks" : "Save this look", systemImage: saved ? "checkmark" : "bookmark").padding(8).frame(maxWidth: .infinity) }.buttonStyle(.borderedProminent).disabled(saved).accessibilityIdentifier("saveLook")
+                    Button { model.saveLook(conditions, style: style, comfortOverride: (savedComfort ?? model.comfort) + adjustment); saved = true } label: { Label(saved ? "Saved to your looks" : "Save this look", systemImage: saved ? "checkmark" : "bookmark").padding(8).frame(maxWidth: .infinity) }.buttonStyle(.borderedProminent).disabled(saved).accessibilityIdentifier("saveLook")
                     ShareLink(item: "\(look.title) — Dress by the Weather\n\(look.items.map(\.name).joined(separator: ", "))\nBring: \(look.bring.joined(separator: ", "))") { Label("Share the outfit checklist", systemImage: "square.and.arrow.up").frame(maxWidth: .infinity) }.font(.subheadline)
                     Text("Styling guidance for adults. These are suggested layers, not a guarantee of comfort or protection.").font(.caption2).foregroundStyle(Theme.muted)
                 }.padding(24).frame(maxWidth: 700).frame(maxWidth: .infinity)
@@ -57,7 +58,7 @@ struct LooksView: View {
                     ForEach(model.savedLooks) { saved in
                         let outfit = OutfitEngine.recommend(saved.conditions, style: saved.style, comfort: saved.comfort)
                         VStack(alignment: .leading, spacing: 14) {
-                            Button { detail = .init(conditions: saved.conditions, style: saved.style) } label: { OutfitArtwork(outfit: outfit, height: 220) }.buttonStyle(.plain)
+                            Button { detail = .init(conditions: saved.conditions, style: saved.style, comfort: saved.comfort) } label: { OutfitArtwork(outfit: outfit, height: 220) }.buttonStyle(.plain)
                             HStack { VStack(alignment: .leading, spacing: 5) { Eyebrow(text: "\(saved.city) · \(saved.style.rawValue)"); Text(outfit.title).font(Theme.editorial(25)) }; Spacer(); Button(role: .destructive) { model.savedLooks.removeAll { $0.id == saved.id } } label: { Image(systemName: "trash").frame(width: 44, height: 44) }.accessibilityLabel("Delete saved look") }
                         }
                     }
@@ -75,6 +76,6 @@ struct LooksView: View {
                     }
                 } else { EmptyWeather() }
             }.padding(24).frame(maxWidth: 700).frame(maxWidth: .infinity)
-        }.pageBackground().toolbar(.hidden, for: .navigationBar).sheet(item: $detail) { selection in OutfitDetailView(conditions: selection.conditions, style: selection.style) }
+        }.pageBackground().toolbar(.hidden, for: .navigationBar).sheet(item: $detail) { selection in OutfitDetailView(conditions: selection.conditions, style: selection.style, savedComfort: selection.comfort) }
     }
 }

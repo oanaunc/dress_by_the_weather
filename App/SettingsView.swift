@@ -60,7 +60,7 @@ struct CreditsView: View {
         List {
             Section("Free global forecasts") { Link("MET Norway Locationforecast", destination: URL(string: "https://api.met.no/weatherapi/locationforecast/2.0/documentation")!); Link("Data licence: CC BY 4.0", destination: URL(string: "https://creativecommons.org/licenses/by/4.0/")!); Link("Provider terms of service", destination: URL(string: "https://api.met.no/doc/TermsOfService")!); Text("Weather data are provided by MET Norway. Daily ranges are derived from available forecast samples. Outfit advice is created by this app; MET Norway does not endorse it.").font(.caption) }
             Section("Feels-like estimates") { Text("Estimated from temperature, wind and humidity. Wind chill is used at ≤10°C with wind above 4.8 km/h. Other conditions use the Bureau of Meteorology shade apparent-temperature formula. These values are estimates, not MET Norway observations.").font(.caption); Link("Apparent temperature formula", destination: URL(string: "https://www.bom.gov.au/info/thermal_stress/")!) }
-            Section("Photography") { Text("Fashion photography created in Midjourney with fictional adult models. Backgrounds are editorial scenes, not views of the selected location. The original summer reference was supplied by the app owner.").font(.caption) }
+            Section("Photography") { Text("Fashion photography created in Midjourney with fictional adult models. Backgrounds are editorial scenes, not views of the selected location.").font(.caption) }
         }.scrollContentBackground(.hidden).pageBackground().navigationTitle("Weather & credits").navigationBarTitleDisplayMode(.inline)
     }
 }

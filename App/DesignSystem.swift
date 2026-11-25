@@ -35,18 +35,31 @@ struct OutfitArtwork: View {
     let outfit: Outfit
     var height: CGFloat = 340
     var variant: Int = Calendar.current.ordinality(of: .day, in: .era, for: Date())! % 4
+    var fullLength = false
     private var asset: String? {
         guard let base = outfit.imageName else { return nil }
-        for offset in 0..<4 {
-            let name = "\(base)_\((variant + offset) % 4)"
-            if UIImage(named: name) != nil { return name }
+        // Some generated collections failed visual review. Use a reviewed look
+        // for the same weather and temperature rather than unsuitable footwear.
+        let replacements = ["couple_rain_4_2": "couple_rain_4_1",
+                            "couple_rain_6_0": "couple_rain_6_2",
+                            "couple_rain_8_0": "couple_rain_8_1",
+                            "couple_rain_8_2": "couple_rain_8_1"]
+        for candidate in [base, replacements[base]].compactMap({ $0 }) {
+            for offset in 0..<4 {
+                let name = "\(candidate)_\((variant + offset) % 4)"
+                if UIImage(named: name) != nil { return name }
+            }
         }
-        return outfit.band == .summer && outfit.style == .casual && base.contains("_dry_") ? "EditorialSummer" : nil
+        return nil
     }
     var body: some View {
         Group {
             if let name = asset {
-                Image(name).resizable().scaledToFill().frame(height: height, alignment: .top).clipped()
+                if fullLength {
+                    Image(name).resizable().aspectRatio(3.0 / 4.0, contentMode: .fit)
+                } else {
+                    Image(name).resizable().scaledToFill().frame(height: height, alignment: .top).clipped()
+                }
             } else {
                 ZStack {
                     LinearGradient(colors: [Theme.sand.opacity(0.65), .white, Theme.olive.opacity(0.15)], startPoint: .topLeading, endPoint: .bottomTrailing)

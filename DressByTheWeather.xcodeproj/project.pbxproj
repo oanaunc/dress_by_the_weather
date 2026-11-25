@@ -11,6 +11,7 @@
 		0B820C2CCED092AD5CE1E398 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0B0176B2567D37DC64C14 /* AppModel.swift */; };
 		172622D74722535B484D46BB /* LocationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C633D05769F47D2561FC1FA1 /* LocationSheet.swift */; };
 		1877E7E4CEA4996C6FE18C43 /* DressWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABBC64E15AAD93E8492D299 /* DressWidget.swift */; };
+		191365D87C246964906C7151 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 68A2536A20C1759B04466E7F /* PrivacyInfo.xcprivacy */; };
 		2E88A7F28239CD04ED6C5727 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CD34A8888DC6E1DD6B963 /* SettingsView.swift */; };
 		3F6D811FF5519875C0C7FC9A /* DressWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F2B42B595856FB3A4CCFD691 /* DressWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5F5562D3F41610B565A96CAC /* OutfitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E27EB0CC1431E8F4B2FE598 /* OutfitsView.swift */; };
@@ -66,6 +67,7 @@
 		4D8DD16169ACA27C766C15B5 /* DressByTheWeather.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DressByTheWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		542465E1AF789909A7576F50 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		557EBC7E7286F589D5BB4216 /* Dress.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dress.entitlements; sourceTree = "<group>"; };
+		68A2536A20C1759B04466E7F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		71E0B0176B2567D37DC64C14 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		757E5DD0E7C19E11B61375C2 /* Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widget.entitlements; sourceTree = "<group>"; };
 		7ABBC64E15AAD93E8492D299 /* DressWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DressWidget.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			children = (
 				7ABBC64E15AAD93E8492D299 /* DressWidget.swift */,
 				B4DBC54313DFF81AF35B638A /* Info.plist */,
+				68A2536A20C1759B04466E7F /* PrivacyInfo.xcprivacy */,
 				757E5DD0E7C19E11B61375C2 /* Widget.entitlements */,
 			);
 			path = Widgets;
@@ -194,6 +197,7 @@
 			buildConfigurationList = C4E18CA11C84191E02057BC3 /* Build configuration list for PBXNativeTarget "DressWidget" */;
 			buildPhases = (
 				2BE3CB47519CECE4D6A9F54B /* Sources */,
+				42E0723B4647D5C280BD9BB8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -273,6 +277,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		42E0723B4647D5C280BD9BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191365D87C246964906C7151 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		606FC9C058AE5C111417B90D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -474,7 +486,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = HBD3XXQK45;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -535,7 +547,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = HBD3XXQK45;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;

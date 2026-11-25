@@ -8,7 +8,7 @@ struct PlannerView: View {
             VStack(alignment: .leading, spacing: 24) {
                 PageHeading(eyebrow: "Less packing. More possibility.", title: "Go beautifully\nprepared.")
                 ZStack(alignment: .bottomLeading) {
-                    Image("EditorialSummer").resizable().scaledToFill().frame(height: 230, alignment: .trailing).clipped()
+                    Image("couple_dry_7_0_3").resizable().scaledToFill().frame(height: 230, alignment: .top).clipped()
                     LinearGradient(colors: [.clear, .black.opacity(0.6)], startPoint: .center, endPoint: .bottom)
                     VStack(alignment: .leading, spacing: 8) { Text("THE ART OF THE GETAWAY").font(.system(size: 9, design: .monospaced)).tracking(2); Text("A forecast. A capsule.\nA lighter suitcase.").font(Theme.editorial(30)) }.foregroundStyle(.white).padding(22)
                 }.clipShape(.rect(cornerRadius: 28))

@@ -21,7 +21,9 @@
       2,
       3
     ],
-    "status": "reviewed"
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_0_1",
@@ -45,7 +47,9 @@
       2,
       3
     ],
-    "status": "reviewed"
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_0_2",
@@ -69,7 +73,9 @@
       2,
       3
     ],
-    "status": "reviewed"
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_0_3",
@@ -93,7 +99,9 @@
       2,
       3
     ],
-    "status": "reviewed"
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_1_0",
@@ -117,7 +125,9 @@
       2,
       3
     ],
-    "status": "reviewed"
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_1_1",
@@ -134,9 +144,16 @@
     "clothing": "warm down winter coats over thick wool sweaters, lined trousers, knitted gloves, wool scarves and hats, insulated boots, snowy winter city",
     "variants": 4,
     "assetBase": "couple_dry_1_1",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "538564b3-34c8-450c-a54b-b2904660285b",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_1_2",
@@ -153,9 +170,15 @@
     "clothing": "warm down winter coats over thick wool sweaters, lined trousers, knitted gloves, wool scarves and hats, insulated boots, snowy winter city",
     "variants": 4,
     "assetBase": "couple_dry_1_2",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "f241a115-5c2e-4457-a149-34c932e9540b",
+    "reviewed": [
+      0,
+      1,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_1_3",
@@ -172,9 +195,16 @@
     "clothing": "warm down winter coats over thick wool sweaters, lined trousers, knitted gloves, wool scarves and hats, insulated boots, snowy winter city",
     "variants": 4,
     "assetBase": "couple_dry_1_3",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "7c5bab19-ca88-478f-ba1e-ed49eff7960b",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_2_0",
@@ -191,9 +221,16 @@
     "clothing": "lined wool overcoats over merino sweaters and base layers, warm trousers, scarves, gloves, lined ankle boots, crisp winter street",
     "variants": 4,
     "assetBase": "couple_dry_2_0",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "1c12c4cc-cbcb-4ba8-92ab-761b3993f4b8",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_2_1",
@@ -210,9 +247,16 @@
     "clothing": "lined wool overcoats over merino sweaters and base layers, warm trousers, scarves, gloves, lined ankle boots, crisp winter street",
     "variants": 4,
     "assetBase": "couple_dry_2_1",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "a4109474-75c0-45fe-9cdf-f44afad38f44",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_2_2",
@@ -229,9 +273,16 @@
     "clothing": "lined wool overcoats over merino sweaters and base layers, warm trousers, scarves, gloves, lined ankle boots, crisp winter street",
     "variants": 4,
     "assetBase": "couple_dry_2_2",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "9bca53dd-44cf-40c3-a226-01e7ab099f4e",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_2_3",
@@ -248,9 +299,14 @@
     "clothing": "lined wool overcoats over merino sweaters and base layers, warm trousers, scarves, gloves, lined ankle boots, crisp winter street",
     "variants": 4,
     "assetBase": "couple_dry_2_3",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "f979936e-cc80-4982-91aa-66be6aa88284",
+    "reviewed": [
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_3_0",
@@ -267,9 +323,16 @@
     "clothing": "medium weight camel and charcoal wool coats, cashmere sweaters, long wool trousers, leather ankle boots, subtle scarves, cool autumn city",
     "variants": 4,
     "assetBase": "couple_dry_3_0",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "397cff94-b926-4143-8cb4-12853a4d6555",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_3_1",
@@ -286,9 +349,16 @@
     "clothing": "medium weight camel and charcoal wool coats, cashmere sweaters, long wool trousers, leather ankle boots, subtle scarves, cool autumn city",
     "variants": 4,
     "assetBase": "couple_dry_3_1",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "428df7d0-f4b5-4bb3-9f3b-0bd5e95be88b",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_3_2",
@@ -305,9 +375,16 @@
     "clothing": "medium weight camel and charcoal wool coats, cashmere sweaters, long wool trousers, leather ankle boots, subtle scarves, cool autumn city",
     "variants": 4,
     "assetBase": "couple_dry_3_2",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "a031c930-61ce-4f93-874f-6018f302f57e",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_3_3",
@@ -324,9 +401,16 @@
     "clothing": "medium weight camel and charcoal wool coats, cashmere sweaters, long wool trousers, leather ankle boots, subtle scarves, cool autumn city",
     "variants": 4,
     "assetBase": "couple_dry_3_3",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "2f89902d-ede3-44df-a08f-e8565c53067a",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_4_0",
@@ -343,9 +427,15 @@
     "clothing": "light trench coats and fine knit sweaters, cotton twill trousers, closed leather sneakers, mild cloudy spring street",
     "variants": 4,
     "assetBase": "couple_dry_4_0",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "181987bc-5de2-43be-8763-17f48de7223e",
+    "reviewed": [
+      0,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_4_1",
@@ -362,9 +452,16 @@
     "clothing": "light trench coats and fine knit sweaters, cotton twill trousers, closed leather sneakers, mild cloudy spring street",
     "variants": 4,
     "assetBase": "couple_dry_4_1",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "9b4c6fc0-7ea8-4a8e-a254-88ad282ea79f",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_4_2",
@@ -381,9 +478,18 @@
     "clothing": "light trench coats and fine knit sweaters, cotton twill trousers, closed leather sneakers, mild cloudy spring street",
     "variants": 4,
     "assetBase": "couple_dry_4_2",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "c84f01a2-b702-4cce-a778-eeca6fe4ac9d",
+    "reviewed": [
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [
+      "da693858-eb36-4f08-a5ed-55d002e97c15",
+      "e5fe231c-b4d2-4e66-8fe9-2931de4ef64b"
+    ],
+    "reviewComplete": true
   },
   {
     "key": "dry_4_3",
@@ -400,9 +506,16 @@
     "clothing": "light trench coats and fine knit sweaters, cotton twill trousers, closed leather sneakers, mild cloudy spring street",
     "variants": 4,
     "assetBase": "couple_dry_4_3",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "86565a9e-1ba4-47e7-a036-8a72b646faa2",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_5_0",
@@ -419,9 +532,16 @@
     "clothing": "light cotton overshirts over long sleeve shirts, light trousers, breathable closed sneakers, pleasantly mild spring street",
     "variants": 4,
     "assetBase": "couple_dry_5_0",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "8aecba43-d5d9-4b0f-afad-8a899bf98c91",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_5_1",
@@ -438,9 +558,16 @@
     "clothing": "light cotton overshirts over long sleeve shirts, light trousers, breathable closed sneakers, pleasantly mild spring street",
     "variants": 4,
     "assetBase": "couple_dry_5_1",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "5cbcddeb-20c7-4e86-aa37-0b9b0767d291",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_5_2",
@@ -457,9 +584,16 @@
     "clothing": "light cotton overshirts over long sleeve shirts, light trousers, breathable closed sneakers, pleasantly mild spring street",
     "variants": 4,
     "assetBase": "couple_dry_5_2",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "ece333e1-4997-4f60-9f82-a1eb60b7ffc3",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_5_3",
@@ -476,9 +610,16 @@
     "clothing": "light cotton overshirts over long sleeve shirts, light trousers, breathable closed sneakers, pleasantly mild spring street",
     "variants": 4,
     "assetBase": "couple_dry_5_3",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "551a3f6d-0161-49e2-a0ab-abbf8033f626",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_6_0",
@@ -495,9 +636,16 @@
     "clothing": "cotton tees and airy cotton blouses, light linen blend trousers, breathable sneakers, warm sunny city",
     "variants": 4,
     "assetBase": "couple_dry_6_0",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "0e4d85e1-25d1-495f-8e3f-3047a7b2b12e",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_6_1",
@@ -514,9 +662,16 @@
     "clothing": "cotton tees and airy cotton blouses, light linen blend trousers, breathable sneakers, warm sunny city",
     "variants": 4,
     "assetBase": "couple_dry_6_1",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "dd6b256e-fd22-4e79-84ee-5b9bd9673fe9",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_6_2",
@@ -533,9 +688,16 @@
     "clothing": "cotton tees and airy cotton blouses, light linen blend trousers, breathable sneakers, warm sunny city",
     "variants": 4,
     "assetBase": "couple_dry_6_2",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "7d44b221-81ed-4c29-a5d9-b020198b76bb",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_6_3",
@@ -549,12 +711,19 @@
       "woman"
     ],
     "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing cotton tees and airy cotton blouses, light linen blend trousers, breathable sneakers, warm sunny city, luxury technical sportswear with wicking active fabrics, supportive trainers for an active outdoor walk, weather appropriate protective layers, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
-    "clothing": "cotton tees and airy cotton blouses, light linen blend trousers, breathable sneakers, warm sunny city",
+    "clothing": "breathable short sleeve technical athletic tops, lightweight walking shorts, supportive mesh trainers with closed toes, sun protection, warm sunny city walk",
     "variants": 4,
     "assetBase": "couple_dry_6_3",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "2ea50203-1400-4ffa-8708-bdcf69e6399b",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_7_0",
@@ -578,7 +747,9 @@
       2,
       3
     ],
-    "status": "reviewed"
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_7_1",
@@ -595,9 +766,16 @@
     "clothing": "airy cream linen shirts, relaxed ivory linen trousers, tan sandals, raffia tote, sunny Mediterranean terrace",
     "variants": 4,
     "assetBase": "couple_dry_7_1",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "d30b7062-38d6-49e8-977f-f4d19800d9b3",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_7_2",
@@ -614,9 +792,16 @@
     "clothing": "airy cream linen shirts, relaxed ivory linen trousers, tan sandals, raffia tote, sunny Mediterranean terrace",
     "variants": 4,
     "assetBase": "couple_dry_7_2",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "3cb0eeb0-cf08-4f89-9a56-db475eaf1790",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_7_3",
@@ -630,12 +815,19 @@
       "woman"
     ],
     "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing airy cream linen shirts, relaxed ivory linen trousers, tan sandals, raffia tote, sunny Mediterranean terrace, luxury technical sportswear with wicking active fabrics, supportive trainers for an active outdoor walk, weather appropriate protective layers, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
-    "clothing": "airy cream linen shirts, relaxed ivory linen trousers, tan sandals, raffia tote, sunny Mediterranean terrace",
+    "clothing": "airy moisture wicking short sleeve performance shirts, lightweight active shorts, supportive closed toe running trainers, sun hats and sunglasses, hot summer walk in a shaded park",
     "variants": 4,
     "assetBase": "couple_dry_7_3",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "d63b0007-eb88-47ec-8b38-82a4e003cef8",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_8_0",
@@ -652,9 +844,16 @@
     "clothing": "loose lightweight linen tops, breathable shorts and airy midi skirt, comfortable sandals, sunglasses and sun hats, hot sunny Mediterranean street",
     "variants": 4,
     "assetBase": "couple_dry_8_0",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "004e59bc-d6d4-417a-bf60-9286a50089ee",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_8_1",
@@ -671,9 +870,16 @@
     "clothing": "loose lightweight linen tops, breathable shorts and airy midi skirt, comfortable sandals, sunglasses and sun hats, hot sunny Mediterranean street",
     "variants": 4,
     "assetBase": "couple_dry_8_1",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "72d79537-7255-48cc-b9ce-f607fa802cbb",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_8_2",
@@ -690,9 +896,16 @@
     "clothing": "loose lightweight linen tops, breathable shorts and airy midi skirt, comfortable sandals, sunglasses and sun hats, hot sunny Mediterranean street",
     "variants": 4,
     "assetBase": "couple_dry_8_2",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "50465329-3605-4fe9-83be-96ddc6fdc4ff",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_8_3",
@@ -706,12 +919,19 @@
       "woman"
     ],
     "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing loose lightweight linen tops, breathable shorts and airy midi skirt, comfortable sandals, sunglasses and sun hats, hot sunny Mediterranean street, luxury technical sportswear with wicking active fabrics, supportive trainers for an active outdoor walk, weather appropriate protective layers, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
-    "clothing": "loose lightweight linen tops, breathable shorts and airy midi skirt, comfortable sandals, sunglasses and sun hats, hot sunny Mediterranean street",
+    "clothing": "loose breathable technical sports shirts, ultralight active shorts, lightweight closed toe mesh trainers, sun hats and water bottles, very hot sunny park with shade",
     "variants": 4,
     "assetBase": "couple_dry_8_3",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "de5a5dd1-1a6c-47bb-a3e9-762485ab10fd",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_9_0",
@@ -728,9 +948,16 @@
     "clothing": "very light loose sun protective long sleeve linen shirts, loose pale linen trousers, ventilated sandals, wide brim sun hats, sunglasses, refillable water bottles, shaded terrace on extremely hot day",
     "variants": 4,
     "assetBase": "couple_dry_9_0",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "229c5644-e572-418e-b57f-834ac73a0443",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_9_1",
@@ -747,9 +974,16 @@
     "clothing": "very light loose sun protective long sleeve linen shirts, loose pale linen trousers, ventilated sandals, wide brim sun hats, sunglasses, refillable water bottles, shaded terrace on extremely hot day",
     "variants": 4,
     "assetBase": "couple_dry_9_1",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "a5265963-a432-4728-af14-9571ebaa8926",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_9_2",
@@ -766,9 +1000,15 @@
     "clothing": "very light loose sun protective long sleeve linen shirts, loose pale linen trousers, ventilated sandals, wide brim sun hats, sunglasses, refillable water bottles, shaded terrace on extremely hot day",
     "variants": 4,
     "assetBase": "couple_dry_9_2",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "6667f533-75ce-446d-b59b-543b5fbd155f",
+    "reviewed": [
+      0,
+      1,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "dry_9_3",
@@ -782,12 +1022,19 @@
       "woman"
     ],
     "prompt": "Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing very light loose sun protective long sleeve linen shirts, loose pale linen trousers, ventilated sandals, wide brim sun hats, sunglasses, refillable water bottles, shaded terrace on extremely hot day, luxury technical sportswear with wicking active fabrics, supportive trainers for an active outdoor walk, weather appropriate protective layers, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref https://cdn.midjourney.com/8d616be0-2d1e-485d-a8ff-4db455c0bdb1/0_2.png --ow 60 --no text watermark logo collage",
-    "clothing": "very light loose sun protective long sleeve linen shirts, loose pale linen trousers, ventilated sandals, wide brim sun hats, sunglasses, refillable water bottles, shaded terrace on extremely hot day",
+    "clothing": "loose UV protective lightweight long sleeve technical shirts, ultralight active shorts, ventilated closed toe mesh trainers, wide brim sun hats and water bottles, resting in shade on an extremely hot day",
     "variants": 4,
     "assetBase": "couple_dry_9_3",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "8ce15859-b904-4a04-ab8f-a4ed42760b0a",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "rain_3_0",
@@ -804,9 +1051,16 @@
     "clothing": "warm waterproof hooded coats over merino knits, full length warm trousers, waterproof grippy ankle boots, cold rainy city street",
     "variants": 4,
     "assetBase": "couple_rain_3_0",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "0cc9e11b-6aa7-495a-872b-53fb704f130d",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "rain_3_1",
@@ -823,9 +1077,16 @@
     "clothing": "warm waterproof hooded coats over merino knits, full length warm trousers, waterproof grippy ankle boots, cold rainy city street",
     "variants": 4,
     "assetBase": "couple_rain_3_1",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "d11d55b3-4564-4112-b3f7-4a1b24f3e199",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "rain_3_2",
@@ -842,9 +1103,15 @@
     "clothing": "warm waterproof hooded coats over merino knits, full length warm trousers, waterproof grippy ankle boots, cold rainy city street",
     "variants": 4,
     "assetBase": "couple_rain_3_2",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "284fb5a0-03ae-4232-9d58-8496cb6ef18c",
+    "reviewed": [
+      0,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "rain_3_3",
@@ -861,9 +1128,16 @@
     "clothing": "warm waterproof hooded coats over merino knits, full length warm trousers, waterproof grippy ankle boots, cold rainy city street",
     "variants": 4,
     "assetBase": "couple_rain_3_3",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "c2375176-569a-445d-aec8-9cd84e6f2089",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "rain_4_0",
@@ -880,9 +1154,14 @@
     "clothing": "light waterproof trench coats over fine knits, long cotton trousers, water resistant closed shoes, umbrella, mild rainy city",
     "variants": 4,
     "assetBase": "couple_rain_4_0",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "c4f01db7-a336-47ee-9b2c-6b8a6acd0005",
+    "reviewed": [
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "rain_4_1",
@@ -899,9 +1178,14 @@
     "clothing": "light waterproof trench coats over fine knits, long cotton trousers, water resistant closed shoes, umbrella, mild rainy city",
     "variants": 4,
     "assetBase": "couple_rain_4_1",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "57e7b53a-b353-48af-adff-c837b9829e8d",
+    "reviewed": [
+      1,
+      2
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "rain_4_2",
@@ -918,9 +1202,11 @@
     "clothing": "light waterproof trench coats over fine knits, long cotton trousers, water resistant closed shoes, umbrella, mild rainy city",
     "variants": 4,
     "assetBase": "couple_rain_4_2",
-    "jobID": null,
+    "jobID": "63ce4fbd-335f-4e9e-9f45-0139778cdea7",
     "reviewed": [],
-    "status": "planned"
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "rain_4_3",
@@ -937,9 +1223,15 @@
     "clothing": "light waterproof trench coats over fine knits, long cotton trousers, water resistant closed shoes, umbrella, mild rainy city",
     "variants": 4,
     "assetBase": "couple_rain_4_3",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "5397a2eb-07e1-47d6-a66d-3b5ef489a025",
+    "reviewed": [
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "rain_6_0",
@@ -956,9 +1248,11 @@
     "clothing": "breathable lightweight rain shells over cotton shirts, lightweight full length trousers, waterproof closed shoes, umbrella, warm rainy city",
     "variants": 4,
     "assetBase": "couple_rain_6_0",
-    "jobID": null,
+    "jobID": "1c280e16-a344-4a91-b29c-fc891e3570ca",
     "reviewed": [],
-    "status": "planned"
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "rain_6_1",
@@ -975,9 +1269,13 @@
     "clothing": "breathable lightweight rain shells over cotton shirts, lightweight full length trousers, waterproof closed shoes, umbrella, warm rainy city",
     "variants": 4,
     "assetBase": "couple_rain_6_1",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "da053581-3305-4040-9873-1325f3ca653d",
+    "reviewed": [
+      0
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "rain_6_2",
@@ -994,9 +1292,13 @@
     "clothing": "breathable lightweight rain shells over cotton shirts, lightweight full length trousers, waterproof closed shoes, umbrella, warm rainy city",
     "variants": 4,
     "assetBase": "couple_rain_6_2",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "f9a6b662-f1c9-401e-b757-694df22e57fc",
+    "reviewed": [
+      0
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "rain_6_3",
@@ -1013,9 +1315,14 @@
     "clothing": "breathable lightweight rain shells over cotton shirts, lightweight full length trousers, waterproof closed shoes, umbrella, warm rainy city",
     "variants": 4,
     "assetBase": "couple_rain_6_3",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "67bf1bfb-9bfc-493c-971f-ad7e3bd1423b",
+    "reviewed": [
+      0,
+      2
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "rain_8_0",
@@ -1032,9 +1339,11 @@
     "clothing": "ultralight breathable rain shells over airy linen shirts, loose light trousers, lightweight water resistant closed shoes, umbrella, humid hot rainy city",
     "variants": 4,
     "assetBase": "couple_rain_8_0",
-    "jobID": null,
+    "jobID": "3c6ecd1d-bcab-4207-9740-a23a8f375bc3",
     "reviewed": [],
-    "status": "planned"
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "rain_8_1",
@@ -1051,9 +1360,13 @@
     "clothing": "ultralight breathable rain shells over airy linen shirts, loose light trousers, lightweight water resistant closed shoes, umbrella, humid hot rainy city",
     "variants": 4,
     "assetBase": "couple_rain_8_1",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "ddcff0de-24c5-4284-b8d4-53792d098961",
+    "reviewed": [
+      1
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "rain_8_2",
@@ -1070,9 +1383,11 @@
     "clothing": "ultralight breathable rain shells over airy linen shirts, loose light trousers, lightweight water resistant closed shoes, umbrella, humid hot rainy city",
     "variants": 4,
     "assetBase": "couple_rain_8_2",
-    "jobID": null,
+    "jobID": "0b7646db-93a7-4dbc-be14-e84becd5baba",
     "reviewed": [],
-    "status": "planned"
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "rain_8_3",
@@ -1089,9 +1404,14 @@
     "clothing": "ultralight breathable rain shells over airy linen shirts, loose light trousers, lightweight water resistant closed shoes, umbrella, humid hot rainy city",
     "variants": 4,
     "assetBase": "couple_rain_8_3",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "d6378483-cccc-40c0-aca9-50414a434a8c",
+    "reviewed": [
+      0,
+      2
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "snow_1_0",
@@ -1108,9 +1428,16 @@
     "clothing": "heavy waterproof insulated hooded winter coats over wool knits and thermal base layers, insulated full length trousers, waterproof insulated grippy snow boots, warm beanies, gloves and scarves, heavy snow in a winter city",
     "variants": 4,
     "assetBase": "couple_snow_1_0",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "4be3a38c-515d-4d18-b588-a868d9638829",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "snow_1_1",
@@ -1127,9 +1454,16 @@
     "clothing": "heavy waterproof insulated hooded winter coats over wool knits and thermal base layers, insulated full length trousers, waterproof insulated grippy snow boots, warm beanies, gloves and scarves, heavy snow in a winter city",
     "variants": 4,
     "assetBase": "couple_snow_1_1",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "ca832b6b-038c-42d9-a3e4-d20b9cbf597f",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "snow_1_2",
@@ -1146,9 +1480,16 @@
     "clothing": "heavy waterproof insulated hooded winter coats over wool knits and thermal base layers, insulated full length trousers, waterproof insulated grippy snow boots, warm beanies, gloves and scarves, heavy snow in a winter city",
     "variants": 4,
     "assetBase": "couple_snow_1_2",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "20f7cfc0-cb41-4ded-9507-8d085655f892",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "snow_1_3",
@@ -1165,9 +1506,16 @@
     "clothing": "heavy waterproof insulated hooded winter coats over wool knits and thermal base layers, insulated full length trousers, waterproof insulated grippy snow boots, warm beanies, gloves and scarves, heavy snow in a winter city",
     "variants": 4,
     "assetBase": "couple_snow_1_3",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "c03f5c25-a478-4850-9da3-3a58b0665260",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "snow_2_0",
@@ -1184,9 +1532,16 @@
     "clothing": "waterproof insulated coats over merino sweaters, warm lined trousers, waterproof snow boots, hats gloves scarves, light snowfall in a city",
     "variants": 4,
     "assetBase": "couple_snow_2_0",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "0ba51370-8482-4695-83f4-326a747f534a",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "snow_2_1",
@@ -1203,9 +1558,15 @@
     "clothing": "waterproof insulated coats over merino sweaters, warm lined trousers, waterproof snow boots, hats gloves scarves, light snowfall in a city",
     "variants": 4,
     "assetBase": "couple_snow_2_1",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "1ee5c1f5-f1fd-420a-a464-28630f0a2c1f",
+    "reviewed": [
+      0,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "snow_2_2",
@@ -1222,9 +1583,16 @@
     "clothing": "waterproof insulated coats over merino sweaters, warm lined trousers, waterproof snow boots, hats gloves scarves, light snowfall in a city",
     "variants": 4,
     "assetBase": "couple_snow_2_2",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "974fc38f-48b2-4957-99e2-fc2351e6f72f",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   },
   {
     "key": "snow_2_3",
@@ -1241,8 +1609,15 @@
     "clothing": "waterproof insulated coats over merino sweaters, warm lined trousers, waterproof snow boots, hats gloves scarves, light snowfall in a city",
     "variants": 4,
     "assetBase": "couple_snow_2_3",
-    "jobID": null,
-    "reviewed": [],
-    "status": "planned"
+    "jobID": "1461d71b-3109-4564-8442-4228b15258fb",
+    "reviewed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "status": "reviewed",
+    "alternateJobIDs": [],
+    "reviewComplete": true
   }
 ]

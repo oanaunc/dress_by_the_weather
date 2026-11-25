@@ -34,13 +34,13 @@ Daily ranges are calculated from available forecast samples. Forecast intervals 
 
 ## Editorial photography
 
-`Art/catalogue.json` defines 64 weather/occasion collections with four couple photographs each, for 256 images. `Art/prompts.txt` contains the reproducible Midjourney prompts. Generated originals retain job IDs. Only visually reviewed variants are imported into `App/Assets.xcassets` with `Scripts/import_art.py`.
+`Art/catalogue.json` defines 64 weather/occasion collections with 256 planned candidates. The app bundles 214 approved couple photographs after rejecting unsuitable footwear, framing or extra people. `Art/prompts.txt` contains the reproducible Midjourney prompts. Generated originals retain job IDs. Only visually reviewed variants are imported into `App/Assets.xcassets` with `Scripts/import_art.py`.
 
-When a matching photograph is not bundled, the app displays a clothing checklist graphic. It never substitutes sunny summer styling for a winter or rain outfit. The original reference image is supplied by the owner; generated images are fictional models. Midjourney usage rights depend on the owner's subscription and terms.
+When a matching photograph is not bundled, the app displays a clothing checklist graphic. It never substitutes sunny summer styling for a winter or rain outfit. All bundled photographs use fictional models generated in Midjourney; the owner’s supplied reference photograph is not distributed. Reviewed alternatives within the same weather and temperature range cover four rejected rain collections. Midjourney usage rights depend on the owner's subscription and terms.
 
 ## Validation
 
-The Swift package tests temperature boundaries, cold/rain/snow overrides, wind chill, comfort calibration, sparse MET responses and thousands of weather/style combinations. The Xcode UI test covers a sample forecast, outfit saving, unit preferences and forecast navigation.
+The Swift package tests temperature boundaries, cold/rain/snow overrides, wind chill, comfort calibration, sparse MET responses and thousands of weather/style combinations. Two Xcode UI tests cover a sample forecast, outfit saving, unit preferences, forecast navigation, worldwide Sydney search and destination packing with live weather.
 
 ## Release
 

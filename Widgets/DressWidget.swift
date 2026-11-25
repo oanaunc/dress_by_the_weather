@@ -8,6 +8,7 @@ struct OutfitEntry: TimelineEntry {
     let symbol: String
     let tip: String
     let updated: Date?
+    var validUntil: Date? = nil
 }
 struct Provider: TimelineProvider {
     func placeholder(in context: Context) -> OutfitEntry { .init(date: Date(), city: "Your city", temperature: "—", symbol: "cloud.sun", tip: "Your daily layers", updated: nil) }
@@ -16,16 +17,17 @@ struct Provider: TimelineProvider {
         // No network requests in the background: use only the foreground app snapshot.
         let current = entry()
         var entries = [current]
-        if let updated = current.updated, updated.addingTimeInterval(3 * 3600) > Date() {
-            entries.append(.init(date: updated.addingTimeInterval(3 * 3600), city: current.city, temperature: "—", symbol: "arrow.clockwise", tip: "Open for fresh weather & layers", updated: updated))
+        if let validUntil = current.validUntil, validUntil > Date() {
+            entries.append(.init(date: validUntil, city: current.city, temperature: "—", symbol: "arrow.clockwise", tip: "Open for fresh weather & layers", updated: current.updated))
         }
         completion(Timeline(entries: entries, policy: .never))
     }
     private func entry() -> OutfitEntry {
         let defaults = UserDefaults(suiteName: "group.com.oanarinaldi.dressbytheweather")
         let updated = defaults?.object(forKey: "updated") as? Date
-        let stale = updated.map { Date().timeIntervalSince($0) > 3 * 3600 } ?? true
-        return .init(date: Date(), city: defaults?.string(forKey: "city") ?? "Your city", temperature: stale ? "—" : defaults?.string(forKey: "temperature") ?? "—", symbol: stale ? "arrow.clockwise" : defaults?.string(forKey: "symbol") ?? "cloud.sun", tip: stale ? "Open for fresh weather & layers" : defaults?.string(forKey: "tip") ?? "Open for your outfit", updated: updated)
+        let validUntil = defaults?.object(forKey: "validUntil") as? Date
+        let stale = validUntil.map { $0 < Date() } ?? true
+        return .init(date: Date(), city: defaults?.string(forKey: "city") ?? "Your city", temperature: stale ? "—" : defaults?.string(forKey: "temperature") ?? "—", symbol: stale ? "arrow.clockwise" : defaults?.string(forKey: "symbol") ?? "cloud.sun", tip: stale ? "Open for fresh weather & layers" : defaults?.string(forKey: "tip") ?? "Open for your outfit", updated: updated, validUntil: validUntil)
     }
 }
 struct DressWidgetView: View {

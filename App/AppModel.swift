@@ -38,7 +38,7 @@ struct PackingTrip: Codable, Identifiable {
     var cities: [SavedCity] = [.bucharest] { didSet { save(cities, "cities") } }
     var style: FashionStyle = .casual { didSet { save(style, "style") } }
     var comfort: Double = 0 { didSet { UserDefaults.standard.set(comfort, forKey: "comfort") } }
-    var fahrenheit = false { didSet { UserDefaults.standard.set(fahrenheit, forKey: "fahrenheit") } }
+    var fahrenheit = false { didSet { UserDefaults.standard.set(fahrenheit, forKey: "fahrenheit"); writeWidget() } }
     var completedOnboarding = false { didSet { UserDefaults.standard.set(completedOnboarding, forKey: "onboarded") } }
     var savedLooks: [SavedLook] = [] { didSet { save(savedLooks, "looks") } }
     var trips: [PackingTrip] = [] { didSet { save(trips, "trips") } }
@@ -54,6 +54,9 @@ struct PackingTrip: Codable, Identifiable {
     private var loadGeneration = 0
     override init() {
         super.init()
+        if ProcessInfo.processInfo.arguments.contains("--uitesting-reset"), let bundleID = Bundle.main.bundleIdentifier {
+            UserDefaults.standard.removePersistentDomain(forName: bundleID)
+        }
         city = read("city") ?? .bucharest; cities = read("cities") ?? [.bucharest]
         style = read("style") ?? .casual; savedLooks = read("looks") ?? []; trips = read("trips") ?? []
         comfort = UserDefaults.standard.double(forKey: "comfort")
@@ -101,8 +104,8 @@ struct PackingTrip: Codable, Identifiable {
         await refresh()
     }
     func showPreview() { loadGeneration += 1; loading = false; forecast = .preview(); error = nil }
-    func saveLook(_ conditions: Conditions, style: FashionStyle) {
-        savedLooks.insert(.init(id: UUID(), date: Date(), conditions: conditions, style: style, comfort: comfort, city: city.name), at: 0)
+    func saveLook(_ conditions: Conditions, style: FashionStyle, comfortOverride: Double? = nil) {
+        savedLooks.insert(.init(id: UUID(), date: Date(), conditions: conditions, style: style, comfort: comfortOverride ?? comfort, city: city.name), at: 0)
     }
     func feedback(_ amount: Double) { comfort = min(5, max(-5, comfort + amount)) }
     func requestLocation() {
@@ -183,6 +186,7 @@ struct PackingTrip: Codable, Identifiable {
         defaults?.set(current.icon, forKey: "symbol")
         defaults?.set(OutfitEngine.recommend(current, style: style, comfort: comfort).items.first?.name, forKey: "tip")
         defaults?.set(forecast.updatedAt, forKey: "updated")
+        defaults?.set(forecast.fetchedAt.addingTimeInterval(3 * 3600), forKey: "validUntil")
         WidgetCenter.shared.reloadAllTimelines()
     }
 }

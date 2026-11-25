@@ -24,9 +24,9 @@ struct TodayView: View {
                 if let error = model.error { Text(error).font(.caption).foregroundStyle(.red).padding(12).frame(maxWidth: .infinity, alignment: .leading).background(.red.opacity(0.06), in: .rect(cornerRadius: 14)) }
                 if let conditions = model.current, let outfit = model.recommendation {
                     weatherHeader(conditions)
+                    Eyebrow(text: "\(model.style.rawValue)  /  \(outfit.band.range)")
                     Button { detail = .init(conditions: conditions, style: model.style) } label: {
-                        OutfitArtwork(outfit: outfit, height: 465)
-                            .overlay(alignment: .bottomLeading) { Text("\(model.style.rawValue.uppercased())  /  \(outfit.band.range)").font(.system(size: 9, design: .monospaced)).tracking(1).padding(12).background(.regularMaterial, in: Capsule()).padding(16) }
+                        OutfitArtwork(outfit: outfit, height: 465, fullLength: true)
                             .overlay(alignment: .bottomTrailing) { Image(systemName: "arrow.up.right").padding(17).glassEffect(.regular, in: Circle()).padding(16) }
                     }.buttonStyle(.plain).accessibilityIdentifier("todayOutfit")
                     VStack(alignment: .leading, spacing: 10) {
@@ -128,7 +128,7 @@ struct TodayView: View {
         VStack(alignment: .leading, spacing: 13) { HStack { Image(systemName: symbol); Text(title).font(.system(size: 9, design: .monospaced)).tracking(1) }; Text(value).font(Theme.editorial(29)).minimumScaleFactor(0.6); Text(note).font(.caption2).foregroundStyle(Theme.muted) }.frame(maxWidth: .infinity, minHeight: 110, alignment: .topLeading).glassCard()
     }
 }
-struct DetailSelection: Identifiable { let id = UUID(); let conditions: Conditions; let style: FashionStyle }
+struct DetailSelection: Identifiable { let id = UUID(); let conditions: Conditions; let style: FashionStyle; var comfort: Double? = nil }
 struct StylePicker: View {
     @Environment(AppModel.self) private var model
     var body: some View {

@@ -32,7 +32,7 @@ struct OnboardingView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 22) {
                     HStack { Eyebrow(text: "Dress by the Weather"); Spacer(); Image(systemName: "sun.max").font(.title2) }.padding(.top, 14)
-                    Image("EditorialSummer").resizable().scaledToFill().frame(height: max(260, min(geometry.size.height * 0.45, 420)), alignment: .trailing).clipped().clipShape(.rect(cornerRadius: 30)).overlay(alignment: .bottomLeading) { Text("THE EVERYDAY EDIT").font(.system(size: 9, design: .monospaced)).tracking(2).padding(14).background(.thinMaterial, in: Capsule()).padding(16) }
+                    Image("couple_dry_7_0_0").resizable().scaledToFill().frame(height: max(260, min(geometry.size.height * 0.45, 420)), alignment: .top).clipped().clipShape(.rect(cornerRadius: 30)).overlay(alignment: .bottomLeading) { Text("THE EVERYDAY EDIT").font(.system(size: 9, design: .monospaced)).tracking(2).padding(14).background(.thinMaterial, in: Capsule()).padding(16) }
                     Text("Your forecast.\nYour outfit.").font(Theme.editorial(48)).lineSpacing(-3)
                     Text("A little weather intelligence. A lot of personal style. Know what to wear, before you step outside.").font(.subheadline).foregroundStyle(Theme.muted).lineSpacing(4)
                     HStack { Label("No account", systemImage: "person.crop.circle.badge.checkmark"); Spacer(); Label("Free weather", systemImage: "cloud.sun") }.font(.caption)

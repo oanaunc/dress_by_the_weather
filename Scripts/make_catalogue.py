@@ -40,11 +40,15 @@ SNOW = {
 
 def main():
     path = ROOT / 'Art/catalogue.json'
+    corrections_path = ROOT / 'Art/sports-corrections.json'
+    sports = json.loads(corrections_path.read_text()) if corrections_path.exists() else {}
     existing = {r['key']: r for r in json.loads(path.read_text())} if path.exists() else {}
     rows = []
     for weather, bands in [('dry', dict(enumerate(CLOTHES))), ('rain', RAIN), ('snow', SNOW)]:
         for band, clothes in bands.items():
             for style, direction in enumerate(STYLES):
+                if weather == 'dry' and style == 3 and str(band) in sports:
+                    clothes = sports[str(band)]
                 key = f'{weather}_{band}_{style}'
                 prompt = f'Full length weather wardrobe editorial photograph of the same stylish adult couple, handsome dark wavy haired man and elegant blonde woman, both wearing {clothes}, {direction}, standing side by side, entire figures including shoes visible, natural skin texture, detailed fabrics, luxury fashion magazine photography, neutral palette, cinematic daylight --ar 3:4 --v 7 --raw --relax --oref {REFERENCE} --ow 60 --no text watermark logo collage'
                 rows.append({'key':key, 'weather':weather, 'temperatureBand':band, 'temperatureRange':BANDS[band], 'style':style, 'occasion':['Everyday','Office','Evening','Active'][style], 'models':['man','woman'], 'prompt':prompt, 'clothing':clothes, 'variants':4, 'assetBase':f'couple_{key}', 'jobID':existing.get(key,{}).get('jobID'), 'reviewed':existing.get(key,{}).get('reviewed',[]), 'status':existing.get(key,{}).get('status','planned')})
