@@ -1,0 +1,36 @@
+{
+  "name": "Dress by the Weather",
+  "subtitle": "Daily Forecast & Outfit Guide",
+  "version": "1.0",
+  "build": "5",
+  "primaryCategory": "Weather",
+  "secondaryCategory": "Lifestyle",
+  "price": 0,
+  "currency": "USD",
+  "appStoreConnectID": "6839394808",
+  "privacyPolicyURL": "https://oanaunc.github.io/dress_by_the_weather/Docs/privacy.html",
+  "supportURL": "https://github.com/oanaunc/dress_by_the_weather/issues",
+  "marketingURL": "https://github.com/oanaunc/dress_by_the_weather",
+  "copyright": "2026 Oana Rinaldi",
+  "promotionalText": "Your forecast. Your outfit. Discover thoughtful layers for your weather, your destination and your day—with free global forecasts and no account.",
+  "keywords": [
+    "weather",
+    "outfit",
+    "clothes",
+    "forecast",
+    "style",
+    "wardrobe",
+    "packing",
+    "travel",
+    "temperature",
+    "rain",
+    "wear",
+    "layers"
+  ],
+  "launchRegions": 174,
+  "excludedLaunchRegions": [
+    "China mainland"
+  ],
+  "releaseAfterApproval": "automatic",
+  "reviewContact": "Awaiting owner-provided email and phone; do not commit private review contact details."
+}

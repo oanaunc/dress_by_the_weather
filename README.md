@@ -2,6 +2,12 @@
 
 A native iPhone and iPad weather stylist: your forecast, translated into thoughtful layers. SwiftUI, original fashion imagery, Liquid Glass navigation, no login and no advertising.
 
+## Preview
+
+<p><img src="AppStore/Screenshots/iPhone/01-Today.png" width="230" alt="Today's weather and outfit"> <img src="AppStore/Screenshots/iPhone/04-Planner.png" width="230" alt="Destination packing planner"></p>
+
+See [the image coverage and temperature guide](Art/README.md) for the reviewed wardrobe library.
+
 ## Run
 
 Requires Xcode 26 or later, iOS 26 or later, and [XcodeGen](https://github.com/yonaskolb/XcodeGen).
