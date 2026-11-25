@@ -31,6 +31,18 @@ struct WeatherSymbol: View {
     var size: CGFloat = 28
     var body: some View { Image(systemName: name).symbolRenderingMode(.multicolor).font(.system(size: size, weight: .light)).accessibilityHidden(true) }
 }
+struct EditorialPhoto: View {
+    let name: String
+    let height: CGFloat
+    var body: some View {
+        GeometryReader { geometry in
+            let photoHeight = max(height, geometry.size.width * 4 / 3)
+            Image(name).resizable().scaledToFill()
+                .frame(width: geometry.size.width, height: photoHeight, alignment: .top)
+                .offset(y: -(photoHeight - height) * 0.15)
+        }.frame(height: height).clipped()
+    }
+}
 struct OutfitArtwork: View {
     let outfit: Outfit
     var height: CGFloat = 340
@@ -58,7 +70,7 @@ struct OutfitArtwork: View {
                 if fullLength {
                     Image(name).resizable().aspectRatio(3.0 / 4.0, contentMode: .fit)
                 } else {
-                    Image(name).resizable().scaledToFill().frame(height: height, alignment: .top).clipped()
+                    EditorialPhoto(name: name, height: height)
                 }
             } else {
                 ZStack {

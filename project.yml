@@ -11,7 +11,7 @@ settings:
     SWIFT_VERSION: "6.0"
     DEVELOPMENT_TEAM: HBD3XXQK45
     MARKETING_VERSION: "1.0"
-    CURRENT_PROJECT_VERSION: "4"
+    CURRENT_PROJECT_VERSION: "5"
     CODE_SIGN_STYLE: Automatic
     TARGETED_DEVICE_FAMILY: "1,2"
 targets:
@@ -33,7 +33,7 @@ targets:
       properties:
         CFBundleDisplayName: Dress by the Weather
         CFBundleShortVersionString: "1.0"
-        CFBundleVersion: "4"
+        CFBundleVersion: "5"
         NSLocationWhenInUseUsageDescription: Your approximate location is used to find local weather and suggest what to wear. You can choose a city instead.
         NSLocationDefaultAccuracyReduced: true
         ITSAppUsesNonExemptEncryption: false
@@ -62,7 +62,7 @@ targets:
       properties:
         CFBundleDisplayName: Dress Weather
         CFBundleShortVersionString: "1.0"
-        CFBundleVersion: "4"
+        CFBundleVersion: "5"
         NSExtension:
           NSExtensionPointIdentifier: com.apple.widgetkit-extension
     entitlements:

@@ -13,3 +13,6 @@ Screenshots/Raw/
 Art/Originals/
 Art/ContactSheets/
 Screenshots/*first*
+
+# Diagnostic simulator captures; release screenshots live in AppStore/Screenshots.
+/Screenshots/

@@ -10,8 +10,7 @@ final class AppFlowTests: XCTestCase {
         }
         capture("Today")
         for tab in ["Forecast", "Looks", "Planner", "You"] {
-            let phoneTab = app.tabBars.buttons[tab]
-            (phoneTab.exists ? phoneTab : app.buttons[tab].firstMatch).tap()
+            app.buttons[tab].firstMatch.tap()
             if tab == "Planner" { XCTAssertTrue(app.buttons["newTrip"].waitForExistence(timeout: 5)) }
             capture(tab)
         }
