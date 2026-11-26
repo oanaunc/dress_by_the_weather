@@ -2,7 +2,7 @@
 
 - Product: Dress by the Weather, native iPhone / iPad, iOS 26+.
 - Bundle: `com.oanarinaldi.dressbytheweather`.
-- Version: 1.0. Build 7 archived successfully and includes the verified iPad touch-target correction. Build 6 was uploaded and processed, but must be replaced before submission.
+- Version: 1.0. Build 7 archived, uploaded and processed successfully, selected and submitted. App and widget both use build 7. It includes the verified iPad touch-target correction. Earlier builds are excluded from release.
 - Weather and daily styling: free MET Norway global forecasts, optional current location, worldwide MapKit search, four daily occasions, saved looks, basic destination packing, local reminders and widgets.
 - Optional Pro: US $19.99 once, permanent non-consumable unlock, no subscription. Product `com.oanarinaldi.dressbytheweather.pro.lifetime`; App Store Connect ID `6839502864`. Includes weekly plans, a private photo wardrobe, reusable travel capsules and the complete editorial library with eight original guides.
 - Core validation: 13 tests passed, including temperature boundaries, sparse forecasts, destination time zones, wet-weather wardrobe matching and capsule reuse.
@@ -14,6 +14,6 @@
 - Privacy: precise/coarse location and diagnostic disclosures published; no tracking. [Public privacy policy on Oanarina](https://www.oanarinaldi.com/dressbytheweatherprivacy.html), including local wardrobe photos, planning data and Apple's optional Pro purchase.
 - Review contact: saved privately in App Store Connect. Personal phone/email are excluded from this repository.
 - Review assets: required iPhone/iPad screenshots prepared and uploaded. [Captioned reviewer video](REVIEW_VIDEO.md) explains free and Pro features and is attached to the review notes.
-- Submission: Pro IAP is Ready for Review in the draft. The app and first IAP will be submitted together after final validation. Automatic release after approval is selected.
+- Submission: **Waiting for Review**, verified for both iOS 1.0 (7) and Dress Pro Lifetime on November 26, 2026 at 10:17 AM Europe/Bucharest. [Apple review record](https://appstoreconnect.apple.com/apps/6839394808/distribution/reviewsubmissions/details/090b1edf-4b6f-4874-8fe4-0e26a8c89f4b). Submission ID `090b1edf-4b6f-4874-8fe4-0e26a8c89f4b`. Both items were submitted together. Automatic release after approval is selected.
 
 The app is not yet publicly released. Uploading builds and saving metadata do not constitute App Review approval.

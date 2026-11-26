@@ -50,6 +50,6 @@ The Swift package tests temperature boundaries, cold/rain/snow overrides, wind c
 
 ## Release
 
-See [AppStore/RELEASE.md](AppStore/RELEASE.md) for the release record. Source, prepared assets, prompts and metadata are versioned here; signing credentials and build products are excluded. Weather and the core daily styling tools remain free. Optional **Pro is a US $19.99 one-time permanent unlock**, with localized App Store pricing and no subscription. Pro adds seven-day outfit planning, a private photo wardrobe, travel capsules that reuse suitable pieces, and the full 214-photo editorial library with eight original styling guides. See [Pro features and purchase behavior](AppStore/PRO.md).
+See [AppStore/RELEASE.md](AppStore/RELEASE.md) for the release record and [the captioned review walkthrough](AppStore/REVIEW_VIDEO.md) for a feature tour. Source, prepared assets, prompts and metadata are versioned here; signing credentials and build products are excluded. Weather and the core daily styling tools remain free. Optional **Pro is a US $19.99 one-time permanent unlock**, with localized App Store pricing and no subscription. Pro adds seven-day outfit planning, a private photo wardrobe, travel capsules that reuse suitable pieces, and the full 214-photo editorial library with eight original styling guides. See [Pro features and purchase behavior](AppStore/PRO.md).
 
 [Privacy policy](https://www.oanarinaldi.com/dressbytheweatherprivacy.html).

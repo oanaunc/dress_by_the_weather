@@ -33,17 +33,19 @@
   ],
   "releaseAfterApproval": "automatic",
   "reviewContact": "Saved in App Store Connect; private contact details are excluded from this repository.",
-  "buildProcessing": "Build 7 archived; uploading",
-  "selectedReleaseBuild": "6 (will be replaced by corrected build 7)",
-  "submissionStatus": "Prepare for Submission",
-  "remainingRequirements": [
-    "Upload and select corrected build 7",
-    "Submit app and first Pro purchase together"
-  ],
+  "buildProcessing": "Complete",
+  "selectedReleaseBuild": "7",
+  "submissionStatus": "Waiting for Review",
+  "remainingRequirements": [],
   "pro": {
     "productID": "com.oanarinaldi.dressbytheweather.pro.lifetime",
     "type": "Non-Consumable",
     "priceUSD": 19.99,
-    "subscription": false
-  }
+    "subscription": false,
+    "appStoreConnectID": "6839502864",
+    "reviewStatus": "Waiting for Review"
+  },
+  "submissionID": "090b1edf-4b6f-4874-8fe4-0e26a8c89f4b",
+  "submittedAt": "2026-11-26T10:17:00+02:00",
+  "reviewVideo": "ReviewerWalkthrough.mp4"
 }
