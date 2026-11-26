@@ -2,6 +2,7 @@ import SwiftUI
 
 struct RootView: View {
     @Environment(AppModel.self) private var model
+    @Environment(ProStore.self) private var pro
     @Environment(\.scenePhase) private var scenePhase
     var body: some View {
         @Bindable var model = model
@@ -17,9 +18,11 @@ struct RootView: View {
             } else { OnboardingView() }
         }.foregroundStyle(Theme.ink)
             .task {
+                await pro.start()
                 if model.completedOnboarding && model.forecast == nil { await model.refresh() }
             }
             .onChange(of: scenePhase) { _, phase in
+                if phase == .active { Task { await pro.refreshEntitlements() } }
                 if phase == .active && model.completedOnboarding && model.forecast != nil && model.forecast?.isPreview == false { Task { await model.refresh() } }
             }
     }

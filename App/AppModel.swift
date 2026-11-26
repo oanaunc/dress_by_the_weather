@@ -31,6 +31,21 @@ struct PackingTrip: Codable, Identifiable {
     let items: [String]
     var checked: Set<String>
 }
+struct PlannedOutfit: Codable, Identifiable {
+    var id: String
+    var date: Date
+    var cityID: String
+    var style: FashionStyle
+    var variant: Int
+}
+struct SavedCapsule: Codable, Identifiable {
+    var id: UUID
+    var city: SavedCity
+    var start: Date
+    var end: Date
+    var plan: CapsulePlan
+    var checked: Set<String>
+}
 
 @MainActor @Observable final class AppModel: NSObject, @preconcurrency CLLocationManagerDelegate {
     var forecast: Forecast?
@@ -42,6 +57,10 @@ struct PackingTrip: Codable, Identifiable {
     var completedOnboarding = false { didSet { UserDefaults.standard.set(completedOnboarding, forKey: "onboarded") } }
     var savedLooks: [SavedLook] = [] { didSet { save(savedLooks, "looks") } }
     var trips: [PackingTrip] = [] { didSet { save(trips, "trips") } }
+    var wardrobe: [Garment] = [] { didSet { save(wardrobe, "wardrobe") } }
+    var weeklyPlans: [PlannedOutfit] = [] { didSet { save(weeklyPlans, "weeklyPlans") } }
+    var capsules: [SavedCapsule] = [] { didSet { save(capsules, "capsules") } }
+    var editorialFavorites: Set<String> = [] { didSet { save(editorialFavorites, "editorialFavorites") } }
     var loading = false
     var error: String?
     var notificationMessage: String?
@@ -59,6 +78,8 @@ struct PackingTrip: Codable, Identifiable {
         }
         city = read("city") ?? .bucharest; cities = read("cities") ?? [.bucharest]
         style = read("style") ?? .casual; savedLooks = read("looks") ?? []; trips = read("trips") ?? []
+        wardrobe = read("wardrobe") ?? []; weeklyPlans = read("weeklyPlans") ?? []; capsules = read("capsules") ?? []
+        editorialFavorites = read("editorialFavorites") ?? []
         comfort = UserDefaults.standard.double(forKey: "comfort")
         fahrenheit = UserDefaults.standard.bool(forKey: "fahrenheit")
         completedOnboarding = UserDefaults.standard.bool(forKey: "onboarded")
@@ -164,6 +185,63 @@ struct PackingTrip: Codable, Identifiable {
     func togglePacking(_ item: String, tripID: UUID) {
         guard let index = trips.firstIndex(where: { $0.id == tripID }) else { return }
         if trips[index].checked.contains(item) { trips[index].checked.remove(item) } else { trips[index].checked.insert(item) }
+    }
+    func plannedOutfit(for date: Date) -> PlannedOutfit? {
+        var calendar = Calendar(identifier: .gregorian); calendar.timeZone = city.timeZone
+        return weeklyPlans.first { $0.cityID == city.id && calendar.isDate($0.date, inSameDayAs: date) }
+    }
+    func planOutfit(date: Date, style: FashionStyle, variant: Int) {
+        var calendar = Calendar(identifier: .gregorian); calendar.timeZone = city.timeZone
+        let day = calendar.startOfDay(for: date), key = city.id + "-" + String(day.timeIntervalSince1970)
+        weeklyPlans.removeAll { $0.id == key }
+        weeklyPlans.append(PlannedOutfit(id: key, date: day, cityID: city.id, style: style, variant: variant))
+    }
+    func clearPlan(date: Date) {
+        guard let plan = plannedOutfit(for: date) else { return }
+        weeklyPlans.removeAll { $0.id == plan.id }
+    }
+    static var wardrobePhotoDirectory: URL {
+        URL.applicationSupportDirectory.appending(path: "WardrobePhotos", directoryHint: .isDirectory)
+    }
+    func saveGarment(_ garment: Garment, photoData: Data?) throws {
+        var garment = garment
+        guard !garment.name.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else { return }
+        if let photoData, let image = UIImage(data: photoData) {
+            let scale = min(1, 1024 / max(image.size.width, image.size.height))
+            let size = CGSize(width: image.size.width * scale, height: image.size.height * scale)
+            let format = UIGraphicsImageRendererFormat(); format.scale = 1
+            let compressed = UIGraphicsImageRenderer(size: size, format: format).image { _ in image.draw(in: CGRect(origin: .zero, size: size)) }.jpegData(compressionQuality: 0.82)
+            if let compressed {
+                try FileManager.default.createDirectory(at: Self.wardrobePhotoDirectory, withIntermediateDirectories: true)
+                let filename = garment.id.uuidString + ".jpg"
+                try compressed.write(to: Self.wardrobePhotoDirectory.appending(path: filename), options: [.atomic, .completeFileProtectionUntilFirstUserAuthentication])
+                garment.photoFilename = filename
+            }
+        }
+        if let index = wardrobe.firstIndex(where: { $0.id == garment.id }) { wardrobe[index] = garment }
+        else { wardrobe.insert(garment, at: 0) }
+    }
+    func removeGarment(_ garment: Garment) {
+        wardrobe.removeAll { $0.id == garment.id }
+        if let filename = garment.photoFilename { try? FileManager.default.removeItem(at: Self.wardrobePhotoDirectory.appending(path: filename)) }
+    }
+    func makeCapsule(city: SavedCity, start: Date, end: Date, occasion: FashionStyle) async throws {
+        let forecast: Forecast
+        if self.city.id == city.id, let current = self.forecast, current.isPreview { forecast = current }
+        else { forecast = try await WeatherService.shared.load(latitude: city.latitude, longitude: city.longitude) }
+        var calendar = Calendar(identifier: .gregorian); calendar.timeZone = city.timeZone
+        let days = forecast.days(timeZone: city.timeZone).filter { calendar.startOfDay(for: $0.date) >= calendar.startOfDay(for: start) && calendar.startOfDay(for: $0.date) <= calendar.startOfDay(for: end) }
+        guard let last = days.last, calendar.isDate(last.date, inSameDayAs: end) else { throw TripError.outsideForecast }
+        let plan = CapsulePlanner.make(days: days, style: occasion, comfort: comfort, garments: wardrobe)
+        capsules.insert(SavedCapsule(id: UUID(), city: city, start: start, end: end, plan: plan, checked: []), at: 0)
+    }
+    func toggleCapsule(_ item: String, capsuleID: UUID) {
+        guard let index = capsules.firstIndex(where: { $0.id == capsuleID }) else { return }
+        if capsules[index].checked.contains(item) { capsules[index].checked.remove(item) } else { capsules[index].checked.insert(item) }
+    }
+    func clearStudioData() throws {
+        if FileManager.default.fileExists(atPath: Self.wardrobePhotoDirectory.path) { try FileManager.default.removeItem(at: Self.wardrobePhotoDirectory) }
+        wardrobe = []; weeklyPlans = []; capsules = []; editorialFavorites = []
     }
     func scheduleReminder(hour: Int) async {
         do {

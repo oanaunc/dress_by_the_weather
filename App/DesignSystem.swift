@@ -11,7 +11,7 @@ enum Theme {
 }
 extension View {
     func glassCard() -> some View {
-        self.padding(20).background(.regularMaterial, in: RoundedRectangle(cornerRadius: 26)).overlay(RoundedRectangle(cornerRadius: 26).stroke(.white.opacity(0.8), lineWidth: 1))
+        self.padding(20).background(.regularMaterial, in: RoundedRectangle(cornerRadius: 26)).overlay(RoundedRectangle(cornerRadius: 26).stroke(.white.opacity(0.8), lineWidth: 1).allowsHitTesting(false))
     }
     func pageBackground() -> some View { self.background(Theme.paper.ignoresSafeArea()) }
 }

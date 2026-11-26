@@ -1,0 +1,34 @@
+{
+  "identifier": "f7489372-6b56-4153-8850-064d87f43ab0",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "19.99",
+      "familyShareable": false,
+      "internalID": "10000001",
+      "localizations": [
+        {
+          "description": "Weekly outfits, your wardrobe, capsules and lookbooks.",
+          "displayName": "Dress by the Weather Pro",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.oanarinaldi.dressbytheweather.pro.lifetime",
+      "referenceName": "Dress Pro Lifetime",
+      "type": "NonConsumable"
+    }
+  ],
+  "settings": {
+    "_applicationInternalID": "6839394808",
+    "_developerTeamID": "HBD3XXQK45",
+    "_failTransactionsEnabled": false,
+    "_locale": "en_US",
+    "_storefront": "USA",
+    "_storeKitErrors": []
+  },
+  "subscriptionGroups": [],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

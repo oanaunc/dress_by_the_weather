@@ -11,7 +11,7 @@ settings:
     SWIFT_VERSION: "6.0"
     DEVELOPMENT_TEAM: HBD3XXQK45
     MARKETING_VERSION: "1.0"
-    CURRENT_PROJECT_VERSION: "5"
+    CURRENT_PROJECT_VERSION: "7"
     CODE_SIGN_STYLE: Automatic
     TARGETED_DEVICE_FAMILY: "1,2"
 targets:
@@ -33,7 +33,7 @@ targets:
       properties:
         CFBundleDisplayName: Dress by the Weather
         CFBundleShortVersionString: "1.0"
-        CFBundleVersion: "5"
+        CFBundleVersion: "7"
         NSLocationWhenInUseUsageDescription: Your approximate location is used to find local weather and suggest what to wear. You can choose a city instead.
         NSLocationDefaultAccuracyReduced: true
         ITSAppUsesNonExemptEncryption: false
@@ -62,7 +62,7 @@ targets:
       properties:
         CFBundleDisplayName: Dress Weather
         CFBundleShortVersionString: "1.0"
-        CFBundleVersion: "5"
+        CFBundleVersion: "7"
         NSExtension:
           NSExtensionPointIdentifier: com.apple.widgetkit-extension
     entitlements:
@@ -72,7 +72,10 @@ targets:
   DressUITests:
     type: bundle.ui-testing
     platform: iOS
-    sources: [UITests]
+    sources:
+      - path: UITests
+      - path: AppStore/DressPro.storekit
+        buildPhase: resources
     dependencies:
       - target: DressByTheWeather
     settings:
@@ -84,5 +87,7 @@ schemes:
     build:
       targets:
         DressByTheWeather: all
+    run:
+      storeKitConfiguration: AppStore/DressPro.storekit
     test:
       targets: [DressUITests]

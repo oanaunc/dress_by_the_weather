@@ -3,6 +3,7 @@ import WeatherStyle
 
 struct TodayView: View {
     @Environment(AppModel.self) private var model
+    @Environment(ProStore.self) private var pro
     @State private var showLocations = false
     @State private var detail: DetailSelection?
     @State private var selectedHour = 0.0
@@ -24,9 +25,12 @@ struct TodayView: View {
                 if let error = model.error { Text(error).font(.caption).foregroundStyle(.red).padding(12).frame(maxWidth: .infinity, alignment: .leading).background(.red.opacity(0.06), in: .rect(cornerRadius: 14)) }
                 if let conditions = model.current, let outfit = model.recommendation {
                     weatherHeader(conditions)
+                    if pro.hasPro, let plan = model.plannedOutfit(for: Date()) {
+                        HStack { Label("Planned for today: \(plan.style.rawValue)", systemImage: "calendar").font(.caption); Spacer(); if plan.style != model.style { Button("Use plan") { model.style = plan.style }.font(.caption.bold()) } }.padding(14).background(Theme.sand.opacity(0.4), in: .rect(cornerRadius: 18))
+                    }
                     Eyebrow(text: "\(model.style.rawValue)  /  \(outfit.band.range)")
                     Button { detail = .init(conditions: conditions, style: model.style) } label: {
-                        OutfitArtwork(outfit: outfit, height: 465, fullLength: true)
+                        OutfitArtwork(outfit: outfit, height: 465, variant: (pro.hasPro && model.plannedOutfit(for: Date())?.style == model.style ? model.plannedOutfit(for: Date())?.variant : nil) ?? Calendar.current.ordinality(of: .day, in: .era, for: Date())! % 4, fullLength: true)
                             .overlay(alignment: .bottomTrailing) { Image(systemName: "arrow.up.right").padding(17).glassEffect(.regular, in: Circle()).padding(16) }
                     }.buttonStyle(.plain).accessibilityIdentifier("todayOutfit")
                     VStack(alignment: .leading, spacing: 10) {

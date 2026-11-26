@@ -14,6 +14,7 @@ struct PlannerView: View {
                 }.clipShape(.rect(cornerRadius: 28))
                 Text("Choose your destination and dates. Build a packing list from its actual weather, including the warmest, coldest and wettest parts of your trip.").font(.subheadline).foregroundStyle(Theme.muted).lineSpacing(5)
                 Button { newTrip = true } label: { Label("Plan a new trip", systemImage: "plus").padding(9).frame(maxWidth: .infinity) }.buttonStyle(.borderedProminent).foregroundStyle(.white).accessibilityIdentifier("newTrip")
+                NavigationLink { ProFeature { CapsuleHomeView() } } label: { HStack(spacing: 14) { Image(systemName: "sparkles"); VStack(alignment: .leading, spacing: 6) { Text("The Pro travel capsule").font(Theme.editorial(25)); Text("Daily combinations with pieces from your wardrobe.").font(.caption).foregroundStyle(Theme.muted) }; Spacer(); Image(systemName: "arrow.up.right") }.glassCard() }.buttonStyle(.plain)
                 if model.trips.isEmpty { ContentUnavailableView("Your next chapter", systemImage: "suitcase.rolling", description: Text("Trips and packing lists stay on this device. Plan up to eight days ahead.")) }
                 ForEach(model.trips) { trip in
                     NavigationLink { PackingListView(tripID: trip.id) } label: {

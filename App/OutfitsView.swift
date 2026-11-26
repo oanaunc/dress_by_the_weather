@@ -3,6 +3,7 @@ import WeatherStyle
 
 struct OutfitDetailView: View {
     @Environment(AppModel.self) private var model
+    @Environment(ProStore.self) private var pro
     @Environment(\.dismiss) private var dismiss
     let conditions: Conditions
     let style: FashionStyle
@@ -29,6 +30,14 @@ struct OutfitDetailView: View {
                         }
                     }
                     if !look.bring.isEmpty { VStack(alignment: .leading, spacing: 10) { Eyebrow(text: "A few things to bring"); Text(look.bring.joined(separator: " · ")).font(.subheadline).lineSpacing(5) }.glassCard() }
+                    if pro.hasPro, !model.wardrobe.isEmpty {
+                        VStack(alignment: .leading, spacing: 14) {
+                            Eyebrow(text: "From your own wardrobe")
+                            ForEach(WardrobeMatcher.match(look, weather: conditions, garments: model.wardrobe)) { match in
+                                HStack { Image(systemName: match.garment == nil ? "plus.circle.dashed" : "checkmark.circle").foregroundStyle(Theme.olive); VStack(alignment: .leading, spacing: 4) { Text(match.name).font(.subheadline); Text(match.garment == nil ? "A suggestion to add" : "You own this").font(.caption2).foregroundStyle(Theme.muted) } }
+                            }
+                        }.glassCard()
+                    }
                     VStack(alignment: .leading, spacing: 12) { Eyebrow(text: "Why this works"); Text(look.explanation).font(.subheadline).lineSpacing(5); if let caution = look.caution { Label(caution, systemImage: "exclamationmark.triangle").font(.caption).foregroundStyle(.orange) } }.glassCard()
                     HStack { Button("Warmer") { adjustment = min(6, adjustment + 3) }.buttonStyle(.glass); Button("Lighter") { adjustment = max(-6, adjustment - 3) }.buttonStyle(.glass); Spacer(); if adjustment != 0 { Button("Reset") { adjustment = 0 }.font(.caption) } }
                     Button { model.saveLook(conditions, style: style, comfortOverride: (savedComfort ?? model.comfort) + adjustment); saved = true } label: { Label(saved ? "Saved to your looks" : "Save this look", systemImage: saved ? "checkmark" : "bookmark").padding(8).frame(maxWidth: .infinity) }.buttonStyle(.borderedProminent).foregroundStyle(.white).disabled(saved).accessibilityIdentifier("saveLook")
@@ -52,6 +61,7 @@ struct LooksView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 24) {
                 PageHeading(eyebrow: "A wardrobe, weather considered", title: "The looks edit.")
+                ProStudioCard()
                 Picker("Collection", selection: $savedOnly) { Text("For today").tag(false); Text("Saved looks").tag(true) }.pickerStyle(.segmented)
                 if savedOnly {
                     if model.savedLooks.isEmpty { ContentUnavailableView("Your personal collection", systemImage: "bookmark", description: Text("Save a look to keep its clothing checklist here.")) }

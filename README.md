@@ -46,8 +46,10 @@ When a matching photograph is not bundled, the app displays a clothing checklist
 
 ## Validation
 
-The Swift package tests temperature boundaries, cold/rain/snow overrides, wind chill, comfort calibration, sparse MET responses and thousands of weather/style combinations. Two Xcode UI tests cover a sample forecast, outfit saving, unit preferences, forecast navigation, worldwide Sydney search and destination packing with live weather.
+The Swift package tests temperature boundaries, cold/rain/snow overrides, wind chill, comfort calibration, sparse MET responses and thousands of weather/style combinations. Thirteen core tests cover weather styling and wardrobe/capsule matching. Xcode UI tests cover free weather flows, worldwide Sydney search and packing, Pro wardrobe persistence, weekly planning, capsules, editorial guides, and StoreKit purchase cancellation, verified unlock, relaunch, restoration and refund revocation.
 
 ## Release
 
-See [AppStore/RELEASE.md](AppStore/RELEASE.md) for the release record. Source, prepared assets, prompts and metadata are versioned here; signing credentials and build products are excluded. No monetization is enabled in this release: live weather and the included styling tools are free.
+See [AppStore/RELEASE.md](AppStore/RELEASE.md) for the release record. Source, prepared assets, prompts and metadata are versioned here; signing credentials and build products are excluded. Weather and the core daily styling tools remain free. Optional **Pro is a US $19.99 one-time permanent unlock**, with localized App Store pricing and no subscription. Pro adds seven-day outfit planning, a private photo wardrobe, travel capsules that reuse suitable pieces, and the full 214-photo editorial library with eight original styling guides. See [Pro features and purchase behavior](AppStore/PRO.md).
+
+[Privacy policy](https://www.oanarinaldi.com/dressbytheweatherprivacy.html).
