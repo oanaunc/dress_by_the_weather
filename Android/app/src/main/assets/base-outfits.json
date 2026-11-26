@@ -1,0 +1,506 @@
+[
+  [
+    [
+      {
+        "category": "Outerwear",
+        "name": "Expedition parka",
+        "fabric": "Heavy insulated shell",
+        "icon": "jacket"
+      },
+      {
+        "category": "Base",
+        "name": "Thermal base layers",
+        "fabric": "Merino wool",
+        "icon": "tshirt"
+      },
+      {
+        "category": "Midlayer",
+        "name": "Thick knit / fleece",
+        "fabric": "Wool or technical fleece",
+        "icon": "sweater"
+      },
+      {
+        "category": "Bottom",
+        "name": "Insulated trousers",
+        "fabric": "Lined wind-resistant fabric",
+        "icon": "figure.stand"
+      },
+      {
+        "category": "Footwear",
+        "name": "Insulated winter boots",
+        "fabric": "Grippy sole",
+        "icon": "shoe.2"
+      }
+    ],
+    [
+      {
+        "category": "Outerwear",
+        "name": "Expedition parka",
+        "fabric": "Heavy insulated shell",
+        "icon": "jacket"
+      },
+      {
+        "category": "Base",
+        "name": "Thermal base layers",
+        "fabric": "Merino wool",
+        "icon": "tshirt"
+      },
+      {
+        "category": "Midlayer",
+        "name": "Thick knit / fleece",
+        "fabric": "Wool or technical fleece",
+        "icon": "sweater"
+      },
+      {
+        "category": "Bottom",
+        "name": "Insulated trousers",
+        "fabric": "Lined wind-resistant fabric",
+        "icon": "figure.stand"
+      },
+      {
+        "category": "Footwear",
+        "name": "Insulated winter boots",
+        "fabric": "Grippy sole",
+        "icon": "shoe.2"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "category": "Outerwear",
+        "name": "Insulated winter coat",
+        "fabric": "Down or synthetic insulation",
+        "icon": "jacket"
+      },
+      {
+        "category": "Top",
+        "name": "Thermal layer & heavy knit",
+        "fabric": "Merino wool",
+        "icon": "sweater"
+      },
+      {
+        "category": "Bottom",
+        "name": "Warm lined trousers",
+        "fabric": "Wool blend",
+        "icon": "figure.stand"
+      },
+      {
+        "category": "Footwear",
+        "name": "Winter boots",
+        "fabric": "Insulated, grippy sole",
+        "icon": "shoe.2"
+      }
+    ],
+    [
+      {
+        "category": "Outerwear",
+        "name": "Insulated winter coat",
+        "fabric": "Down or synthetic insulation",
+        "icon": "jacket"
+      },
+      {
+        "category": "Top",
+        "name": "Thermal layer & heavy knit",
+        "fabric": "Merino wool",
+        "icon": "sweater"
+      },
+      {
+        "category": "Bottom",
+        "name": "Warm lined trousers",
+        "fabric": "Wool blend",
+        "icon": "figure.stand"
+      },
+      {
+        "category": "Footwear",
+        "name": "Winter boots",
+        "fabric": "Insulated, grippy sole",
+        "icon": "shoe.2"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "category": "Outerwear",
+        "name": "Insulated jacket",
+        "fabric": "Warm insulating layer",
+        "icon": "jacket"
+      },
+      {
+        "category": "Top",
+        "name": "Sweater & base layer",
+        "fabric": "Merino wool",
+        "icon": "sweater"
+      },
+      {
+        "category": "Bottom",
+        "name": "Warm trousers",
+        "fabric": "Wool blend",
+        "icon": "figure.stand"
+      },
+      {
+        "category": "Footwear",
+        "name": "Lined ankle boots",
+        "fabric": "Grippy sole",
+        "icon": "shoe.2"
+      }
+    ],
+    [
+      {
+        "category": "Outerwear",
+        "name": "Lined wool overcoat",
+        "fabric": "Warm insulating layer",
+        "icon": "jacket"
+      },
+      {
+        "category": "Top",
+        "name": "Sweater & base layer",
+        "fabric": "Merino wool",
+        "icon": "sweater"
+      },
+      {
+        "category": "Bottom",
+        "name": "Warm trousers",
+        "fabric": "Wool blend",
+        "icon": "figure.stand"
+      },
+      {
+        "category": "Footwear",
+        "name": "Lined ankle boots",
+        "fabric": "Grippy sole",
+        "icon": "shoe.2"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "category": "Outerwear",
+        "name": "Medium-weight coat",
+        "fabric": "Wool blend",
+        "icon": "jacket"
+      },
+      {
+        "category": "Top",
+        "name": "Warm knit",
+        "fabric": "Merino or cashmere",
+        "icon": "sweater"
+      },
+      {
+        "category": "Bottom",
+        "name": "Full-length trousers",
+        "fabric": "Wool or cotton twill",
+        "icon": "figure.stand"
+      },
+      {
+        "category": "Footwear",
+        "name": "Ankle boots",
+        "fabric": "Closed, sturdy shoes",
+        "icon": "shoe.2"
+      }
+    ],
+    [
+      {
+        "category": "Outerwear",
+        "name": "Tailored wool coat",
+        "fabric": "Wool blend",
+        "icon": "jacket"
+      },
+      {
+        "category": "Top",
+        "name": "Warm knit",
+        "fabric": "Merino or cashmere",
+        "icon": "sweater"
+      },
+      {
+        "category": "Bottom",
+        "name": "Full-length trousers",
+        "fabric": "Wool or cotton twill",
+        "icon": "figure.stand"
+      },
+      {
+        "category": "Footwear",
+        "name": "Ankle boots",
+        "fabric": "Closed, sturdy shoes",
+        "icon": "shoe.2"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "category": "Outerwear",
+        "name": "Light jacket",
+        "fabric": "Wind-resistant weave",
+        "icon": "jacket"
+      },
+      {
+        "category": "Top",
+        "name": "Fine-knit sweater",
+        "fabric": "Cotton or merino",
+        "icon": "sweater"
+      },
+      {
+        "category": "Bottom",
+        "name": "Long trousers",
+        "fabric": "Cotton twill",
+        "icon": "figure.stand"
+      },
+      {
+        "category": "Footwear",
+        "name": "Sneakers",
+        "fabric": "Comfortable closed shoes",
+        "icon": "shoe.2"
+      }
+    ],
+    [
+      {
+        "category": "Outerwear",
+        "name": "Light trench coat",
+        "fabric": "Wind-resistant weave",
+        "icon": "jacket"
+      },
+      {
+        "category": "Top",
+        "name": "Fine-knit sweater",
+        "fabric": "Cotton or merino",
+        "icon": "sweater"
+      },
+      {
+        "category": "Bottom",
+        "name": "Long trousers",
+        "fabric": "Cotton twill",
+        "icon": "figure.stand"
+      },
+      {
+        "category": "Footwear",
+        "name": "Loafers / closed shoes",
+        "fabric": "Comfortable closed shoes",
+        "icon": "shoe.2"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "category": "Layer",
+        "name": "Light overshirt",
+        "fabric": "Cotton or linen blend",
+        "icon": "jacket"
+      },
+      {
+        "category": "Top",
+        "name": "Long-sleeved shirt",
+        "fabric": "Breathable cotton",
+        "icon": "tshirt"
+      },
+      {
+        "category": "Bottom",
+        "name": "Light trousers",
+        "fabric": "Cotton",
+        "icon": "figure.stand"
+      },
+      {
+        "category": "Footwear",
+        "name": "Sneakers",
+        "fabric": "Breathable closed shoes",
+        "icon": "shoe.2"
+      }
+    ],
+    [
+      {
+        "category": "Layer",
+        "name": "Unstructured blazer",
+        "fabric": "Cotton or linen blend",
+        "icon": "jacket"
+      },
+      {
+        "category": "Top",
+        "name": "Long-sleeved shirt",
+        "fabric": "Breathable cotton",
+        "icon": "tshirt"
+      },
+      {
+        "category": "Bottom",
+        "name": "Light trousers",
+        "fabric": "Cotton",
+        "icon": "figure.stand"
+      },
+      {
+        "category": "Footwear",
+        "name": "Loafers",
+        "fabric": "Breathable closed shoes",
+        "icon": "shoe.2"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "category": "Top",
+        "name": "Cotton tee / airy blouse",
+        "fabric": "Breathable cotton",
+        "icon": "tshirt"
+      },
+      {
+        "category": "Bottom",
+        "name": "Light trousers / midi skirt",
+        "fabric": "Linen blend",
+        "icon": "figure.stand"
+      },
+      {
+        "category": "Footwear",
+        "name": "Light sneakers",
+        "fabric": "Breathable materials",
+        "icon": "shoe.2"
+      }
+    ],
+    [
+      {
+        "category": "Top",
+        "name": "Light tailored shirt",
+        "fabric": "Breathable cotton",
+        "icon": "tshirt"
+      },
+      {
+        "category": "Bottom",
+        "name": "Light trousers / midi skirt",
+        "fabric": "Linen blend",
+        "icon": "figure.stand"
+      },
+      {
+        "category": "Footwear",
+        "name": "Light loafers",
+        "fabric": "Breathable materials",
+        "icon": "shoe.2"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "category": "Top",
+        "name": "Airy linen shirt",
+        "fabric": "Light, breathable linen",
+        "icon": "tshirt"
+      },
+      {
+        "category": "Bottom",
+        "name": "Loose linen trousers / shorts",
+        "fabric": "Lightweight natural fabric",
+        "icon": "figure.stand"
+      },
+      {
+        "category": "Footwear",
+        "name": "Sandals",
+        "fabric": "Comfortable, ventilated shoes",
+        "icon": "shoe.2"
+      }
+    ],
+    [
+      {
+        "category": "Top",
+        "name": "Relaxed linen shirt",
+        "fabric": "Light, breathable linen",
+        "icon": "tshirt"
+      },
+      {
+        "category": "Bottom",
+        "name": "Linen trousers / airy dress",
+        "fabric": "Lightweight natural fabric",
+        "icon": "figure.stand"
+      },
+      {
+        "category": "Footwear",
+        "name": "Breathable loafers",
+        "fabric": "Comfortable, ventilated shoes",
+        "icon": "shoe.2"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "category": "Top",
+        "name": "Airy linen shirt",
+        "fabric": "Light, breathable linen",
+        "icon": "tshirt"
+      },
+      {
+        "category": "Bottom",
+        "name": "Loose linen trousers / shorts",
+        "fabric": "Lightweight natural fabric",
+        "icon": "figure.stand"
+      },
+      {
+        "category": "Footwear",
+        "name": "Sandals",
+        "fabric": "Comfortable, ventilated shoes",
+        "icon": "shoe.2"
+      }
+    ],
+    [
+      {
+        "category": "Top",
+        "name": "Relaxed linen shirt",
+        "fabric": "Light, breathable linen",
+        "icon": "tshirt"
+      },
+      {
+        "category": "Bottom",
+        "name": "Linen trousers / airy dress",
+        "fabric": "Lightweight natural fabric",
+        "icon": "figure.stand"
+      },
+      {
+        "category": "Footwear",
+        "name": "Breathable loafers",
+        "fabric": "Comfortable, ventilated shoes",
+        "icon": "shoe.2"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "category": "Top",
+        "name": "Airy linen shirt",
+        "fabric": "Light, breathable linen",
+        "icon": "tshirt"
+      },
+      {
+        "category": "Bottom",
+        "name": "Loose linen trousers / shorts",
+        "fabric": "Lightweight natural fabric",
+        "icon": "figure.stand"
+      },
+      {
+        "category": "Footwear",
+        "name": "Sandals",
+        "fabric": "Comfortable, ventilated shoes",
+        "icon": "shoe.2"
+      }
+    ],
+    [
+      {
+        "category": "Top",
+        "name": "Relaxed linen shirt",
+        "fabric": "Light, breathable linen",
+        "icon": "tshirt"
+      },
+      {
+        "category": "Bottom",
+        "name": "Linen trousers / airy dress",
+        "fabric": "Lightweight natural fabric",
+        "icon": "figure.stand"
+      },
+      {
+        "category": "Footwear",
+        "name": "Breathable loafers",
+        "fabric": "Comfortable, ventilated shoes",
+        "icon": "shoe.2"
+      }
+    ]
+  ]
+]

@@ -1,6 +1,6 @@
 # Dress by the Weather
 
-A native iPhone and iPad weather stylist: your forecast, translated into thoughtful layers. SwiftUI, original fashion imagery, Liquid Glass navigation, no login and no advertising.
+A native iPhone, iPad and Android weather stylist: your forecast, translated into thoughtful layers. SwiftUI, original fashion imagery, Liquid Glass navigation, no login and no advertising.
 
 ## Preview
 
@@ -8,7 +8,11 @@ A native iPhone and iPad weather stylist: your forecast, translated into thought
 
 See [the image coverage and temperature guide](Art/README.md) for the reviewed wardrobe library.
 
-## Run
+## Android
+
+The native Jetpack Compose edition shares all 214 approved photographs, eight guides and the iOS styling rules. See [Android build and validation](Android/README.md), [Google Play reviewer guide](GooglePlay/ReviewerWalkthrough.md) and [Android privacy policy](https://www.oanarinaldi.com/dressbytheweatherandroidprivacy.html). Android uses licensed Source Serif and Inter fonts, native system permissions and Google Play Billing for the same one-time Pro upgrade.
+
+## Run on iOS
 
 Requires Xcode 26 or later, iOS 26 or later, and [XcodeGen](https://github.com/yonaskolb/XcodeGen).
 

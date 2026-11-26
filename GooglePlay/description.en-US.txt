@@ -1,0 +1,31 @@
+Your forecast. Your outfit.
+
+Dress by the Weather turns the daily forecast into a considered outfit for both women and men. Open a beautiful editorial view of your day, then see the layers, materials, shoes and extras that suit the actual conditions.
+
+FREE WEATHER, EVERYWHERE
+• Use your optional approximate location, search for a city or address worldwide, or enter coordinates.
+• View current conditions, hourly changes and the available multi-day forecast from MET Norway.
+• Understand feels-like temperature, rain, wind and daily highs and lows.
+• Save multiple places, switch Celsius/Fahrenheit, and adjust your temperature comfort.
+
+A WARDROBE, WEATHER CONSIDERED
+• Choose Everyday, Office, Evening or Active outfits.
+• See matching couple photography, practical clothing checklists and reasons for each recommendation.
+• Save favorite looks, try warmer or lighter layers, and give comfort feedback.
+• Plan a basic packing list from your destination's actual forecast, up to eight days ahead.
+• Add a home-screen widget and an optional local morning reminder.
+
+DRESS PRO — ONE PURCHASE, YOUR PERSONAL STYLE STUDIO
+Unlock Pro permanently with one optional purchase. No subscription or recurring charge. The localized Google Play price is shown before purchase.
+• Dress the week: save occasions and outfit variations for seven forecast days.
+• Your wardrobe: add your own pieces with optional photos, comfort ranges, occasion, rain readiness and laundry status. Find suitable pieces you already own.
+• Travel capsules: prepare daily combinations, reuse suitable pieces, check off and share your capsule list.
+• The editorial library: explore all 214 curated couple photographs and eight original styling guides, filter by weather, temperature and occasion, and save inspiration.
+• Try every Studio tool in the public sample Studio before buying. Sample weather is clearly labelled; preview changes are temporary and separate from your own data.
+
+PRIVATE BY DESIGN
+No app account, ads or analytics. Wardrobe photos, preferences and plans stay on your device. Live weather sends requested coordinates to MET Norway; place searches use the Android geocoder, with Photon as a fallback. The privacy policy explains these requests. Google Play handles Pro payment and restoration. Purchases on Apple and Google stores are separate.
+
+Forecast availability varies by location and provider. Outfit advice is a practical suggestion, not a guarantee of comfort or safety in extreme conditions. Photographs feature fictional adult couples and editorial backgrounds, not live views of the selected city.
+
+Weather data: MET Norway, CC BY 4.0. Daily ranges and clothing advice by this app. Place data: Android geocoder / Photon / OpenStreetMap.

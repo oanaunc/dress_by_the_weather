@@ -1,0 +1,205 @@
+[
+  {
+    "id": "office",
+    "title": "The modern office",
+    "subtitle": "Structure, softened.",
+    "collections": [
+      "dry_4_1",
+      "dry_5_1",
+      "dry_6_1",
+      "dry_3_1"
+    ],
+    "notes": [
+      {
+        "title": "Start with a column",
+        "body": "Choose a shirt and trousers in neighboring tones. A simple base lets one tailored layer do the work."
+      },
+      {
+        "title": "Make room for the commute",
+        "body": "Carry the warm layer you need outdoors, then remove it inside. In rain, choose closed water-resistant shoes over a decorative finish."
+      },
+      {
+        "title": "Keep one detail",
+        "body": "A belt, a watch or a small bag adds definition. Let the rest of the outfit feel quiet."
+      }
+    ]
+  },
+  {
+    "id": "evening",
+    "title": "After the light fades",
+    "subtitle": "An evening with intention.",
+    "collections": [
+      "dry_2_2",
+      "dry_4_2",
+      "dry_5_2",
+      "dry_7_2"
+    ],
+    "notes": [
+      {
+        "title": "Dress for the journey",
+        "body": "Choose an outer layer that works with the silhouette beneath it. A beautiful coat can be part of the look."
+      },
+      {
+        "title": "Change the texture",
+        "body": "A fine knit, crisp cotton or fluid woven fabric creates interest within a restrained palette."
+      },
+      {
+        "title": "Remember the return",
+        "body": "Check the evening forecast before leaving. The temperature on the way home may call for an extra layer."
+      }
+    ]
+  },
+  {
+    "id": "weekend",
+    "title": "A slower weekend",
+    "subtitle": "Easy pieces. Thoughtful proportions.",
+    "collections": [
+      "dry_3_0",
+      "dry_5_0",
+      "dry_6_0",
+      "dry_7_0"
+    ],
+    "notes": [
+      {
+        "title": "Balance the volume",
+        "body": "Pair a relaxed shirt with a cleaner trouser shape, or a compact top with a wider leg."
+      },
+      {
+        "title": "Repeat your favorites",
+        "body": "A familiar pair of comfortable shoes makes a good starting point. Build around pieces you enjoy wearing."
+      },
+      {
+        "title": "Bring the removable layer",
+        "body": "An overshirt or knit can travel in your bag. Choose the weight from the actual forecast."
+      }
+    ]
+  },
+  {
+    "id": "carryon",
+    "title": "The carry-on edit",
+    "subtitle": "Less luggage. More ways to wear it.",
+    "collections": [
+      "dry_4_0",
+      "dry_5_1",
+      "dry_6_2",
+      "rain_4_1",
+      "dry_7_0"
+    ],
+    "notes": [
+      {
+        "title": "Choose a small palette",
+        "body": "Start with two neutrals and one accent. Repeating colors makes it easier to combine fewer pieces."
+      },
+      {
+        "title": "Let layers cross occasions",
+        "body": "A simple shirt and a refined overshirt can work for travel, a casual dinner and a day in the city."
+      },
+      {
+        "title": "Pack for the full range",
+        "body": "Use the destination forecast, including wet and windy periods. Repeated outer layers do not replace fresh base layers or enough socks."
+      }
+    ]
+  },
+  {
+    "id": "rain",
+    "title": "The rain issue",
+    "subtitle": "Prepared can be beautiful.",
+    "collections": [
+      "rain_3_0",
+      "rain_4_0",
+      "rain_4_1",
+      "rain_6_2",
+      "rain_8_1"
+    ],
+    "notes": [
+      {
+        "title": "Start with function",
+        "body": "A suitable waterproof outer layer and grippy closed shoes come first. Check the care label and condition of your own pieces."
+      },
+      {
+        "title": "Keep the lower half practical",
+        "body": "Choose hems that stay clear of puddles and fabrics that suit the expected weather."
+      },
+      {
+        "title": "Choose the right extra",
+        "body": "An umbrella suits calmer rain. In strong wind, use a rain hood and follow local weather advice."
+      }
+    ]
+  },
+  {
+    "id": "winter",
+    "title": "Winter, considered",
+    "subtitle": "Warmth with a clear silhouette.",
+    "collections": [
+      "snow_1_0",
+      "snow_2_1",
+      "dry_1_0",
+      "dry_0_0"
+    ],
+    "notes": [
+      {
+        "title": "Build from the inside",
+        "body": "Start with a comfortable base, then add an insulating midlayer and an outer layer suited to wind and precipitation."
+      },
+      {
+        "title": "Let the coat lead",
+        "body": "A simple palette beneath a substantial coat keeps the outfit coherent. Warmth and freedom of movement matter more than a narrow fit."
+      },
+      {
+        "title": "Finish at the edges",
+        "body": "Remember hands, head and feet. Ordinary fashion clothing is not specialist equipment for severe cold or remote outdoor travel."
+      }
+    ]
+  },
+  {
+    "id": "linen",
+    "title": "Sun-washed linen",
+    "subtitle": "Lightness, without the rush.",
+    "collections": [
+      "dry_7_0",
+      "dry_7_1",
+      "dry_8_0",
+      "dry_9_0"
+    ],
+    "notes": [
+      {
+        "title": "Give fabric some air",
+        "body": "Loose, breathable pieces allow room to move. A light long sleeve can be useful when you want more coverage."
+      },
+      {
+        "title": "Keep the palette soft",
+        "body": "Ivory, sand and a muted accent make an easy foundation. Add texture through a woven bag or natural-looking fabric."
+      },
+      {
+        "title": "Plan around the heat",
+        "body": "Carry water and sun protection, seek shade and adjust your activity to local conditions. A photograph does not promise protection from heat."
+      }
+    ]
+  },
+  {
+    "id": "active",
+    "title": "Move beautifully",
+    "subtitle": "Comfort sets the pace.",
+    "collections": [
+      "dry_2_3",
+      "dry_4_3",
+      "dry_6_3",
+      "dry_7_3",
+      "dry_9_3"
+    ],
+    "notes": [
+      {
+        "title": "Choose the route first",
+        "body": "Shoes and layers should suit the surface, duration and weather. Editorial looks are inspiration for everyday activity."
+      },
+      {
+        "title": "Make the layer removable",
+        "body": "A quick-drying top and an easy outer layer let you adjust as you warm up or stop."
+      },
+      {
+        "title": "Leave room to change plans",
+        "body": "Check storms, extreme temperatures and local warnings. In hot weather, choose cooler hours and take breaks."
+      }
+    ]
+  }
+]

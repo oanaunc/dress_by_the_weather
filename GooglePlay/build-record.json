@@ -1,0 +1,19 @@
+{
+  "versionName": "1.0",
+  "versionCode": 2,
+  "package": "com.oanarinaldi.dressbytheweather",
+  "targetSdk": 36,
+  "minSdk": 26,
+  "bundleBytes": 76522515,
+  "bundleSha256": "be0d59937bc270ad2d78134fcc75f3fab2e5a1113b36775b15bc8bd5995d27b9",
+  "uploadCertificateSha256": "dea6afc5d6dc2f772705d052089fe3334501abc5c6d594155ff079e0d179467d",
+  "googlePlayAppId": "4973699322018773438",
+  "proProductId": "dress_pro_lifetime",
+  "purchaseOption": "lifetime",
+  "usPrice": "19.99 USD",
+  "purchaseType": "one-time permanent non-consumable",
+  "editorialImages": 214,
+  "styleGuides": 8,
+  "privacyUrl": "https://www.oanarinaldi.com/dressbytheweatherandroidprivacy.html",
+  "status": "Production bundle upload started; not yet submitted for review."
+}
