@@ -10,7 +10,7 @@ See [the image coverage and temperature guide](Art/README.md) for the reviewed w
 
 ## Android
 
-The native Jetpack Compose edition shares all 214 approved photographs, eight guides and the iOS styling rules. See [Android build and validation](Android/README.md), [Google Play reviewer guide](GooglePlay/ReviewerWalkthrough.md) and [Android privacy policy](https://www.oanarinaldi.com/dressbytheweatherandroidprivacy.html). Android uses licensed Source Serif and Inter fonts, native system permissions and Google Play Billing for the same one-time Pro upgrade.
+The native Jetpack Compose edition shares all 214 approved photographs, eight guides and the iOS styling rules. See [Android build and validation](Android/README.md), [Google Play release record](GooglePlay/RELEASE.md), [reviewer guide](GooglePlay/ReviewerWalkthrough.md) and [Android privacy policy](https://www.oanarinaldi.com/dressbytheweatherandroidprivacy.html). Android uses licensed Source Serif and Inter fonts, native system permissions and Google Play Billing for the same one-time Pro upgrade.
 
 ## Run on iOS
 

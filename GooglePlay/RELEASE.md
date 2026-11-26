@@ -1,6 +1,6 @@
 # Android release record
 
-Version **1.0 (2)** was submitted to Google Play on **26 November 2026, approximately 11:30 Europe/Bucharest**. The console confirmed **12 changes submitted for review** and displayed **Changes in review**. Automated checks were still running at that observation. It is not yet publicly released.
+Version **1.0 (2)** was submitted to Google Play on **26 November 2026, 11:30 Europe/Bucharest**. Submission **1** has an [official receipt](https://play.google.com/console/u/0/developers/8359156760975569195/app/4973699322018773438/publishing/submission-activity/1/details), showing **In review** and **12 changes submitted for review** and displayed **Changes in review**. Automated checks were still running at that observation. It is not yet publicly released.
 
 [Google Play publishing status](https://play.google.com/console/u/0/developers/8359156760975569195/app/4973699322018773438/publishing).
 
@@ -19,6 +19,7 @@ Validation completed:
 - Eleven JVM tests passed, including exact parity with 9,360 shipping Swift outfit-engine cases, forecast parsing, time zones, purchase signature rejection, preferences and wardrobe/capsule behavior.
 - Four instrumented phone flows passed, including real worldwide Sydney search, free tools, Pro tools and isolated sample-preview reset. Main free/Pro flows also passed on both tablet layouts.
 - The separately installed, signed, minified production APK passed its UI smoke test: onboarding, free navigation, public Pro preview, wardrobe editing, exit and reset without granting ownership.
+- [GitHub Android checks](https://github.com/oanaunc/dress_by_the_weather/actions/runs/45792761909) passed on Ubuntu: unit tests, lint and debug assembly. The workflow uses the official runner SDK after replacing a failed third-party SDK setup action.
 - Signed release bundle/APK builds and release lint passed. No real Google payment was made; live payment-sheet, cancellation and refund behavior still require a Play-installed licensed tester.
 
 Android matches the original app's layouts, palette, photography, content and styling rules. Native Android permissions, billing, widgets and licensed fonts/icons differ from Apple system components.
